@@ -1,17 +1,14 @@
----
-layout: nil
----
 /* TEAM */
 	Writer:Erik Zaadi
 	Contact: contact [at] erikzaadi.com
 	Twitter: @erikzaadi
-	From:Jerusalem, Israel
+	Github: @erikzaadi
+	From:Tel Aviv, Israel
 
 /* THANKS */
-    Platform: octopress
+    Platform: hugo
     
 /* SITE */
-	Last update:{{ site.time |date: "%d/%m/%Y"}}
 	Language:English
 	Doctype:HTML5
 	IDE: Vim
