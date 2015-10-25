@@ -1,0 +1,17 @@
+---
+layout: nil
+---
+/* TEAM */
+	Writer:Erik Zaadi
+	Contact: contact [at] erikzaadi.com
+	Twitter: @erikzaadi
+	From:Jerusalem, Israel
+
+/* THANKS */
+    Platform: octopress
+    
+/* SITE */
+	Last update:{{ site.time |date: "%d/%m/%Y"}}
+	Language:English
+	Doctype:HTML5
+	IDE: Vim

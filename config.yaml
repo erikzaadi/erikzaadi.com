@@ -1,0 +1,29 @@
+---
+languageCode: "en-us"
+baseurl: "http://erikzaadi.com/"
+title: "Erik Zaadi"
+author: "Erik Zaadi"
+layoutdir: "layouts"
+contentdir: "content"
+publishdir: "public"
+indexes:
+    category: "categories"
+permalinks:
+    posts: /:year/:month/:day/:title/
+    pages: /:slug/
+metadataformat: "yaml"
+theme: "cactus"
+params:
+  description: "The tales of a half breed devops and web developer"
+  copyright: "© 2015 erikzaadi.com"
+  disqusShortname: erikzaadi
+  aboutAuthor: "Geek Dad"
+  twitter : "erikzaadi"
+  enableRSS: true
+  name : "Erik Zaadi"
+  bio : "WebOps Dad FTW"
+  googleAnalytics: "UA-8728177-3"
+  title404 : "Oh Noez!!"
+  subtitle404 : "Well, we got ourselves a 404. Imagine that."
+  readMore: "MOAR™ Posts"
+
