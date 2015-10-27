@@ -1,6 +1,7 @@
 ---
 date: 2015-10-25T22:06:43+02:00
 title: Bye Octopress, Hello Hugo
+categories: [blog, octopress, hugo]
 ---
 
 After suffering from write block, heavily influenced by octopress super fast load time, I moved this blog to [hugo](https://gohugo.io/).
