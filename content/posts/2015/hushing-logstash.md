@@ -1,6 +1,6 @@
 ---
 date: 2015-10-27T09:13:29+02:00
-description: "Logstash logs fills up"
+description: "Yo dawg, I heard you like to process logs with Logstash..."
 title: Hush hush now Logstash
 categories: [logstash, ops]
 ---

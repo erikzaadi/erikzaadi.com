@@ -1,6 +1,7 @@
 ---
 date: 2015-10-25T22:06:43+02:00
 title: Bye Octopress, Hello Hugo
+description: "Yet another blog platform migration"
 categories: [blog, octopress, hugo]
 ---
 
