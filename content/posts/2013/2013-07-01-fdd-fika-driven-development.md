@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "FDD - Fika Driven Development"
+slug: "fdd-fika-driven-development"
 date: 2013-07-01
 comments: true
 categories: ['development']
