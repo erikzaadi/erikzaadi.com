@@ -2,6 +2,7 @@
 layout: post
 title: "BigPanda's Raspberry Pi Powered Geekalicous Door"
 date: 2015-03-05
+slug: raspberry-pi-powered-door
 comments: true
 categories: [RaspberryPi, BigPanda, Hacking]
 ---

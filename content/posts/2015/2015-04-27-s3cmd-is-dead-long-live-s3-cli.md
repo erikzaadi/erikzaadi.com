@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "s3cmd is dead, long live s3-cli"
+slug: 's3cmd-is-dead-long-live-s3-cli'
 date: 2015-04-27
 comments: true
 categories: [s3, amazon, node, nodejs, octopress, s3cmd, s3-cli]

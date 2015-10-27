@@ -9,7 +9,7 @@ publishdir: "public"
 indexes:
     category: "categories"
 permalinks:
-    posts: /:year/:month/:day/:title/
+    posts: /:year/:month/:day/:slug/
     pages: /:slug/
 metadataformat: "yaml"
 theme: "cactus"
