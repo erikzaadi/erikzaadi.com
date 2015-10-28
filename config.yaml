@@ -12,7 +12,7 @@ permalinks:
     posts: /:year/:month/:day/:slug/
     pages: /:slug/
 metadataformat: "yaml"
-theme: "cactus"
+theme: "solarized"
 params:
   description: "The tales of a half breed devops and web developer"
   copyright: "© 2015 erikzaadi.com"
@@ -26,4 +26,4 @@ params:
   title404 : "Oh Noez!!"
   subtitle404 : "Well, we got ourselves a 404. Imagine that."
   readMore: "MOAR™ Posts"
-
+  solarizedTheme: "dark"
