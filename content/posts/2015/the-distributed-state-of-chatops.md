@@ -7,7 +7,7 @@ categories: [hubot,chatops,slack]
  
 ## Hubot was EPIC
 
-Hubot swept the ChatOps sphere by making it super simple to write your own bot.
+[Hubot](https://hubot.github.com) swept the ChatOps sphere by making it super simple to write your own bot.
 
 It had tons of plugins that could integrate to almost anything.
 
@@ -19,13 +19,13 @@ Ack that Nagios alert, Chart that usage with Graphite, you name it.
 
 ## Then came Slack and HipChat
 
-HipChat, but mainly Slack, made it even easier by having integrations available on the platform level.
+HipChat, but mainly [Slack](https://slack.com), made it even easier by having integrations available on the platform level.
 
 You no longer needed any process running, Slack would take care of everything for you.
 
 Not only that, Integrating new Services with Slack is usually no more than 3-4 clicks away.
 
-A simple no brainer that JUST WORKS&trade;.
+A simple no brainer that **JUST WORKS&trade;**.
 
 If you needed anything more, Slack created a super simple bot API you can run, that doesn't require the entire Hubot framework around it.
 
@@ -40,4 +40,3 @@ Slack just does it better, and is so popular that most services WANT to integrat
 Hell no, whenever you need something quick that does more than notify, Hubot is still your best choice.
 
 When Slack will host your custom coded bots, Hubot will indeed be in trouble.
-
