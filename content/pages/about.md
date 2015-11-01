@@ -2,6 +2,7 @@
 slug: about
 date: 2015-10-25T22:06:43+02:00
 title: About Me
+comments: false
 ---
 
 Half breed devops and web developer.
