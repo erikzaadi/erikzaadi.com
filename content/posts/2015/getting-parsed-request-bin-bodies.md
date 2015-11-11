@@ -58,6 +58,7 @@ curl -s 'http://requestb.in/api/v1/bins/YOUR_BIN_ID/requests' -H 'Cookie: sessio
   },
   "path": "/YOUR_BIN_ID",
   "content_type": "application/javascript; charset=UTF-8",
+  "body": "{\n  \"way_longer_raw_json_body_that_I_will_not_bore_you_with\":                 true\n}",
   "time": 1447243787.943264
 }
 ```
