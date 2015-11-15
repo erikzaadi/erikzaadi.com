@@ -2,6 +2,7 @@
 date: 2015-11-15T16:53:43+02:00
 description: "So YAML is easy right? You're prolly so badass your don't event lint your YAML..."
 title: Linting Ansible YAML in vim
+categories: [ansible, vim, syntastic, YAML]
 ---
 
 ### I love Ansible, and one of the reasons is YAML...
