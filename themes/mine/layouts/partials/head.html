@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="author" content="{{ with .Site.Params.name }}{{ . }}{{ end }}">
+		<meta name="description" content="{{ if eq .Title .Site.Title }}{{ .Site.Params.description }} - {{ .Title }}{{ else}}{{ .Title }}{{ end }}">
+		{{ .Hugo.Generator }}
+		<title>{{ if eq .Title .Site.Title }}{{ .Site.Params.description }} - {{ .Title }}{{ else}}{{ .Title }} &middot; {{ .Site.Title }}{{ end }}</title>
+		<link rel="shortcut icon" href="{{ .Site.BaseURL }}images/favicon.ico">
+		<link rel="stylesheet" href="{{ .Site.BaseURL }}css/style.css">
+		<link rel="stylesheet" href="{{ .Site.BaseURL }}css/highlight-{{ .Site.Params.solarizedTheme}}.css">
+		<link href="{{ .Site.BaseURL }}index.xml" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
+	</head>

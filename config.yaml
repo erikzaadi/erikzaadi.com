@@ -12,7 +12,7 @@ permalinks:
     posts: /:year/:month/:day/:slug/
     pages: /:slug/
 metadataformat: "yaml"
-theme: "solarized"
+theme: "mine"
 params:
   description: "The tales of a half breed devops and web developer"
   copyright: "© 2015 erikzaadi.com"
