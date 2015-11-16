@@ -5,6 +5,10 @@ title: Linting Ansible YAML in vim
 categories: [ansible, vim, syntastic, YAML]
 ---
 
+#### ZOMG UPDATE!!1
+
+My pull request for [syntastic](https://github.com/scrooloose/syntastic) was [merged](https://github.com/scrooloose/syntastic/pull/1599#issuecomment-156838042)!
+
 ### I love Ansible, and one of the reasons is YAML...
 
 But there's just so many [YAML gotcha's](http://docs.ansible.com/ansible/YAMLSyntax.html#gotchas).
@@ -47,16 +51,18 @@ I added that simple dot notation to the `ftdetect` part and _VOILA_, NERDGASM ac
 
 ### MAKE IT WORKz FOR ME!!1
 
-Either wait for the pull requests to land, _OR_:
+Either wait for the pull request<del>s</del> to land, _OR_:
+
 
 Use my forks in your Vundle / Pathogen / NeoWHATEVER:
 
 ```
 Plugin 'erikzaadi/vim-ansible-yaml'
-Plugin 'erikzaadi/syntastic'
 ``` 
+**NO LONGER NEEDED**, just update your syntastic!
 
-And then go to your `<vundle install dir>/syntastic` and do `git checkout ansible-syntax-checker`
+<del>`Plugin 'erikzaadi/syntastic'`</del>
 
+<del>And then go to your `<vundle install dir>/syntastic` and do `git checkout ansible-syntax-checker`</del>
 
 Live long and deploy fast
