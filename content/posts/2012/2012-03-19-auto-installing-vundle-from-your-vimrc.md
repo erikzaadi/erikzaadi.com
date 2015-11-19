@@ -7,21 +7,21 @@ categories:
 ---
 
 ### You should be using vundle
-[Vundle](https://github.com/gmarik/vundle) is a vim plugin manager, ala [pathogen](https://github.com/tpope/vim-pathogen/).
+[Vundle](https://github.com/VundleVim/Vundle.vim) is a vim plugin manager, ala [pathogen](https://github.com/tpope/vim-pathogen/).
 
 Vundle allows you to specify in your vimrc what vim plugins you wish to load, and it'll automatically download (git clone if possible) and enable vim plugins. 
 
 Vundle can get a name of a plugin as it appears in the vim plugin directory, a github `:user/:repo` style string, and even a full git url.
 
 ```
-Bundle 'Syntastic' "uber awesome syntax and errors highlighter
-Bundle 'altercation/vim-colors-solarized' "T-H-E colorscheme
-Bundle 'https://github.com/tpope/vim-fugitive' "So awesome, it should be illegal 
+Vundle 'Syntastic' "uber awesome syntax and errors highlighter
+Vundle 'altercation/vim-colors-solarized' "T-H-E colorscheme
+Vundle 'https://github.com/tpope/vim-fugitive' "So awesome, it should be illegal 
 ```
 
 Vundle also updates your vim plugins with a simple command :
 ```
-:BundleInstall!
+:VundleInstall!
 ```
 
 Vundle is awesome, it saves a lot of the manual work needed in [pathogen](https://github.com/tpope/vim-pathogen).
@@ -39,21 +39,21 @@ Adding these lines to your .vimrc, fixes that :
             echo "Installing Vundle.."
             echo ""
             silent !mkdir -p ~/.vim/bundle
-            silent !git clone https://github.com/gmarik/vundle ~/.vim/bundle/vundle
+            silent !git clone https://github.com/VundleVim/Vundle.vim ~/.vim/bundle/vundle
             let iCanHazVundle=0
         endif
         set rtp+=~/.vim/bundle/vundle/
-        call vundle#rc()
-        Bundle 'gmarik/vundle'
+        call vundle#begin()
+        Vundle 'VundleVim/Vundle.vim'
         "Add your bundles here
-        Bundle 'Syntastic' "uber awesome syntax and errors highlighter
-        Bundle 'altercation/vim-colors-solarized' "T-H-E colorscheme
-        Bundle 'https://github.com/tpope/vim-fugitive' "So awesome, it should be illegal 
+        Vundle 'Syntastic' "uber awesome syntax and errors highlighter
+        Vundle 'altercation/vim-colors-solarized' "T-H-E colorscheme
+        Vundle 'https://github.com/tpope/vim-fugitive' "So awesome, it should be illegal 
         "...All your other bundles...
         if iCanHazVundle == 0
-            echo "Installing Bundles, please ignore key map error messages"
+            echo "Installing Vundles, please ignore key map error messages"
             echo ""
-            :BundleInstall
+            :VundleInstall
         endif
     " Setting up Vundle - the vim plugin bundler end
 ```
