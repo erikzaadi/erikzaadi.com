@@ -1,6 +1,6 @@
 ---
 date: 2016-01-09T21:42:42+02:00
-description: ""
+description: "LAN PARTY FTW"
 title: "Dummy Guide To Mac Lan Party With Team Fortress 2"
 ---
 
