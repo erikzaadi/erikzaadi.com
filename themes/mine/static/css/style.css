@@ -297,7 +297,7 @@ hr {
 code, span.code {
     font-family: 'Source Code Pro', Consolas, "Liberation Mono", Menlo, Courier, monospace;
 	color: #e83a6f;
-	background-color:#EEE;
+/*	background-color:#EEE;*/
 	font-size:14px;
 	padding: 3px;
 	border: solid 1px #d0d4d7;
@@ -307,14 +307,15 @@ code, span.code {
 pre	{
     font-family: 'Source Code Pro', Consolas, "Liberation Mono", Menlo, Courier, monospace;
 	white-space:pre-wrap;
-	margin: 10px auto;
+	margin: 15px auto;
 	width: 97%;
 	word-break: break-word;
 	/*border: 1px solid #ddd;*/
 	/*font-size:14px;*/
 	overflow:auto;
-	border-radius: 3px;
-	background: #272b2d;
+	border-radius: 9px !important;
+    border-style: solid 5px transparent !important;
+	/*background: #272b2d;*/
   font-size: 13px;
   line-height: 1.5em;
   font-weight: 500;
@@ -330,7 +331,7 @@ pre code {
 	border-radius: 0px;
 	display: block;
 	padding : 15px;
-	background: #272b2d;
+	/*background: #272b2d;*/
 }
 
 table {

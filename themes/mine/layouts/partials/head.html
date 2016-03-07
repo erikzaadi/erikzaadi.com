@@ -10,6 +10,6 @@
 		<title>{{ if eq .Title .Site.Title }}{{ .Site.Params.description }} - {{ .Title }}{{ else}}{{ .Title }} &middot; {{ .Site.Title }}{{ end }}</title>
 		<link rel="shortcut icon" href="{{ .Site.BaseURL }}images/favicon.ico">
 		<link rel="stylesheet" href="{{ .Site.BaseURL }}css/style.css">
-		<link rel="stylesheet" href="{{ .Site.BaseURL }}css/highlight-{{ .Site.Params.solarizedTheme}}.css">
+		<link rel="stylesheet" href="{{ .Site.BaseURL }}css/prism-solarized-{{ .Site.Params.solarizedTheme }}.css">
 		<link href="{{ .Site.BaseURL }}index.xml" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
 	</head>
