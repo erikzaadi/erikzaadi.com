@@ -58,7 +58,9 @@ My physical condition improved, and I was able to get into the BigPanda office o
 
 I set presentation rehearsals each time I came into the office.
 
-Initially the rehearsals audience were the target audience for the conference (A tad bit more Ops oriented), then broadened to anyone with an opinion (small FYI, in Israel, if you have a room with 4 people, you have 7 different opinions).
+Initially the rehearsals audience were the target audience for the conference (A tad bit more Ops oriented), then broadened to anyone with an opinion.
+
+Small FYI, in Israel, if you have a room with 4 people, you have 7 different opinions.
 
 The presentation started to take form, from the initial raw to a more refined and tuned state.
 
@@ -75,7 +77,9 @@ I had this fear that if the ignite wasn't good enough, people might be reluctant
 I created my ignite presentation, and rehearsed it once in front of an audience.
 
 Initially, the ignites were set to be 10 minutes, which I didn't really get to at the rehearsals (got to ~7 minutes).
+
 Later, I was notified that the slides were to be 15 seconds each.
+
 Finally, the 15 seconds per slides limitation was removed, and a total time limit of 5 minutes was asked for.
 
 ### A week before the conference
@@ -111,7 +115,9 @@ Boy would that come back to haunt me.
 
 ### Day two, day of the ChatOps talk
 
-My ChatOps talk was one of 3 possible tiers (another talk and an ongoing workshop), and was suppose to be the last talk before lunch, which my last slide's MEME even referenced lunch, as I figured people would be wanting to get to lunch as quick as possible.
+My ChatOps talk was one of 3 possible tiers (another talk and an ongoing workshop), and was suppose to be the last talk before lunch.
+
+My last slide's MEME even referenced lunch, as I figured people would be wanting to get to lunch as quick as possible.
 
 Due to some heavy rain in the morning, the schedule was delayed a bit.
 
