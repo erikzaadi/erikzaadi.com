@@ -1,5 +1,6 @@
 language: go
 go: 1.7.4
+script: ./travis.sh
 deploy:
   provider: s3
   access_key_id: AKIAJ7F7TUCODJYRXFCQ
