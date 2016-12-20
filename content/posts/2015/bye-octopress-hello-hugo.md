@@ -13,7 +13,7 @@ Here's some comparisons:
 
 Octopress:
 
-```
+```bash
 gem install bundler
 bundle install
 Fetching gem metadata from https://rubygems.org/...........
@@ -55,7 +55,7 @@ Use `bundle show [gemname]` to see where a bundled gem is installed.
 
 Hugo:
 
-```
+```bash
 brew install hugo
 mkdir themes
 git clone https://github.com/digitalcraftsman/hugo-cactus-theme themes/cactus
@@ -66,7 +66,7 @@ git clone https://github.com/digitalcraftsman/hugo-cactus-theme themes/cactus
 
 Octopress:
 
-```
+```bash
 time bundle exec rake generate
 ## Generating Site with Jekyll
 unchanged sass/screen.scss
@@ -78,7 +78,7 @@ bundle exec rake generate  10.31s user 1.14s system 99% cpu 11.527 total
 
 Hugo:
 
-```
+```bash
 time hugo
 0 draft content
 0 future content

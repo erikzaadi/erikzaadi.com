@@ -25,7 +25,7 @@ We even got so far as adding a `cron` job that ran every 5 minutes that truncate
 
 After poking around I found a **MAGIC** command line parameter:
 
-```
+```bash
 --quiet
 ```
 

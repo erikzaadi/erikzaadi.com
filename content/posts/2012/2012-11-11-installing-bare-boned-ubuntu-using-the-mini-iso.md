@@ -23,7 +23,7 @@ One small caveat though, defining Wifi during the installation sucks, do install
 
 Before installing the GUI, I enabled the Gnome 3 PPA, to be up to date with the latest Gnome 3.6 packages held back by Ubuntu:
 
-```
+```bash
 #Preparing Gnome 3 PPA
 sudo apt-get install -y python-software-properties software-properties-common 
 sudo add-apt-repository ppa:gnome3-team/gnome3
@@ -34,7 +34,7 @@ Then you need to edit `/etc/network/interfaces` and disable your eth0 connection
 
 Install the following to get Gnome 3 up and running:
 
-```
+```bash
 #Installing Gnome 3 Components
 sudo apt-get install -y gnome-shell gnome-network-admin gnome-terminal \
 gnome-alsamixer gnome-bluetooth gnome-tweak-tool network-manager-gnome \
@@ -45,7 +45,7 @@ And you're good to go, with a snappy non bloated desktop available.
 If you want some extra default apps, you can add `--install-suggests` to the `apt-get` command, but it's not needed.
 
 Boot it up by running:
-```
+```bash
 #Starting Gnome 3
 sudo service gdm start
 ```

@@ -31,7 +31,7 @@ If so we open the door.
 
 **BEHOLD, ZE FUGLY HACK**
 
-```
+```javascript
 var request = require('request');
 var _ = require('lodash');
 var Promise = require('bluebird');

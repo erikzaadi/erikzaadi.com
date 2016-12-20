@@ -21,7 +21,7 @@ Or
   
 **[Update:]** Alex proposed the following, verbose, but as an extension:
 
-```
+```csharp
 public static string CalculateMd5Hash(this String input)
 {
     return System.Security.Cryptography.MD5

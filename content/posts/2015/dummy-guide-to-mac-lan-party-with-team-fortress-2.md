@@ -43,7 +43,7 @@ Fire up the development console again with `~`.
 
 Enter the following to make re-spawning faster:
 
-```
+```ini
 mp_respawnwavetime 1
 mp_disable_respawn_times 1 
 ```

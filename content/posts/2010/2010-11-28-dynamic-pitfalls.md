@@ -24,7 +24,7 @@ This introduces a blessed flexibility, and saves time.
 
 Here's a small example where I used it:
 
-```
+```csharp
 public ActionResult Login(string ReturnUrl)  
     {  
         ViewModel.ReturnUrl = ReturnUrl;  

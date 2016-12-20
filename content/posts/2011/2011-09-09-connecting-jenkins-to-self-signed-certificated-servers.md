@@ -22,7 +22,7 @@ I've recently needed to connect our Jenkins CI server to several internal server
 The problem with these servers are that their SSL certificates are selfsigned.
 This causes Jenkins to fail when connecting to the servers with the following error (Which you can see in the Jenkins log):
 
-```    
+```bash
 javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException:
 PKIX path building failed:
 sun.security.provider.certpath.SunCertPathBuilderException:
@@ -33,13 +33,13 @@ To solve the problem, instead of going through Java keysigning hell, download [J
 
 Then run :
 
-```
+```bash
 java InstallCert yourServerOrIP
 ```
 
 By default, it'll try port `443`, however if you need a custom port, say `8888` run:
 
-``` 
+```bash
 java InstallCert yourServerOrIP:8888
 ```
 
@@ -53,7 +53,7 @@ Furthermore, copy / symlink the same file to your home directory and rename to `
 
 To test that it works, run:
     
-```
+```bash
 keytool -list
 ```
 
@@ -62,7 +62,7 @@ When prompted for a password, enter `changeit`
 You should now be able to see the certificate you imported.
 To narrow down the keytool search, you can run
 
-```
+```bash
 keytool -list -alias yourServerAlias
 ```
 
@@ -70,13 +70,13 @@ where alias is the name you should have seen in the end of the `InstallCert` com
 
 To test that the connection works, we'll run:
 
-```    
+```bash
 java SSLPoke yourServerOrIP
 ```
 
 or if you need a custom port, for example `8888`:
 
-```    
+```bash
 java SSLPoke yourServerOrIP 8888
 ```
 

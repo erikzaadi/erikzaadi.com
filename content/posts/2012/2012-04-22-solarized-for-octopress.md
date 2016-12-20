@@ -14,14 +14,14 @@ The source is as always [on github](https://github.com/erikzaadi/solarized-octop
 
 To add this to your own Octopress instance : 
 
-```
+```bash
 cd /my/awesome/octopress/dir
 git clone http://github.com/erikzaadi/solarized-octopress-theme .themes/solarized
 rake install["solarized"]
 ```
 
 _zsh users_ : run 
-```
+```bash
 rake install\['solarized'\]
 ``` 
 instead of the last command
@@ -30,7 +30,7 @@ instead of the last command
 
 To toggle between light and dark mode, edit `sass/custom/_colors.scss` and change `$sol` and ``$solarized`:
 
-```
+```css
 $sol : light; // light or dark -  Recommended: set $solarized  to the opposite of this
 $solarized : dark; // code syntax highlighting theme
 ```

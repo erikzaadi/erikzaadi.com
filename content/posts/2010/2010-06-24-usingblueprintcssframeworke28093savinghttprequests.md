@@ -23,7 +23,7 @@ Using the `@media` CSS selector, we can differ between different medias for CSS 
 
 **Example:**
 
-```
+```css
 @media  screen, projection {  
     body { background: #CCC; }  
 }  
@@ -41,7 +41,7 @@ All modern browsers (Except IE below 8) can display images embedded in the CSS o
 
 **Example:**
 
-```
+```css
 .showgrid {
     background:url(data:image/png;base64,idsadsaVERYLONGBASE64String=)
 }  

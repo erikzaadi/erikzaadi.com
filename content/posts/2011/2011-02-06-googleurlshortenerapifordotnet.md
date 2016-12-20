@@ -15,7 +15,7 @@ I read a short and concise [post](http://davidwalsh.name/google-url) by [David W
 
 I played around with the code a bit in C#, and voila! A .net version (with some additions).
 
-```
+```csharp
 var googleShorter = new GoogleUrlApi("PUT_YOUR_LONG_KEY_HERE");  
   
 var urlToPlayWith = "http://www.google.com";  

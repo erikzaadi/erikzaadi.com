@@ -27,7 +27,7 @@ For the impatient:
 
 I created a filter that inherits the default `[HandleError]` Attribute.
 
-```
+```csharp
 public class HandleErrorWithAjaxFilter : HandleErrorAttribute  
 {  
 
@@ -90,7 +90,7 @@ _The typical usage would be to decorate the controller with the `[HandleErrorWit
 
 However, for the sake of the example, the actions are decorated separately to show the different override usages.
 
-```
+```csharp
 public class HomeController : Controller  
 {  
 
@@ -127,7 +127,7 @@ public class HomeController : Controller
 The filter detects if the request came from Ajax, and if so returns a more slim response, allowing me to capture it in the jQuery ajax method's error handler:
 
 
-```
+```javascript
 $(function() {  
 
     $("button").click(function() {  

@@ -22,7 +22,7 @@ We hacked together a working Python version in that session, that I thought woul
 
 We used a very simply Telnet server using Python's `socket` module and most of the time was spent understanding how the f#!@#k to clear the screen:
 
-```
+```javascript
 #Clear telnet screen, works for console as well
 self.conn.send(chr(27) + "[2J") #chr(27) == <ESC>
 ```
@@ -54,7 +54,7 @@ This was easy with [forever](https://github.com/nodejitsu/forever).
 
 Here's the entire `package.json` with the scripts for testing, testing continuously, starting and stopping daemon:
 
-```
+```json
 {
   "name": "GameOfLifeTelnet",
   "version": "0.0.1",
@@ -83,7 +83,7 @@ Here's the entire `package.json` with the scripts for testing, testing continuou
 
 So to get this working, all you need to do is clone the repo and one npm command and you're done:
 
-```
+```bash
 git clone https://github.com/erikzaadi/GameOfLifeNodeTelnet
 cd GameOfLifeNodeTelnet
 npm i
@@ -91,7 +91,7 @@ npm i
 
 To run tests:
 
-```
+```bash
 #Running Mocha tests
 #simple test run
 npm test
@@ -101,7 +101,7 @@ npm run-script watch
 
 To run as a daemon:
 
-```
+```bash
 #starting
 npm run-script daemon
 #stopping
@@ -110,11 +110,11 @@ npm run-script stop
 
 Grab the [source code](https://github.com/erikzaadi/GameOfLifeNodeTelnet) or run the live sample:
 
-```
+```bash
 telnet gameoflife.erikzaadi.com 1337
 ```
 
-```
+```stars
 ✩✩   ✩       ✩      ✩✩        ✩✩   ✩      ✩✩
 ✩✩    ✩ ✩✩  ✩✩               ✩✩✩✩  ✩✩✩✩ ✩ ✩✩
 ✩                           ✩✩

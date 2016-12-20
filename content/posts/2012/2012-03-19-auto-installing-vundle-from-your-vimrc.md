@@ -13,14 +13,14 @@ Vundle allows you to specify in your `vimrc` what vim plugins you wish to load, 
 
 Vundle can get a name of a plugin as it appears in the vim plugin directory, a github `:user/:repo` style string, and even a full git url.
 
-```
+```bash
 Plugin 'Syntastic' "uber awesome syntax and errors highlighter
 Plugin 'altercation/vim-colors-solarized' "T-H-E colorscheme
 Plugin 'https://github.com/tpope/vim-fugitive' "So awesome, it should be illegal 
 ```
 
 Vundle also updates your vim plugins with a simple command :
-```
+```bash
 :VundleUpdate
 ```
 
@@ -31,7 +31,7 @@ Even more if your installing your vim plugins manually, oy vei.
 However, there's always the fuss of getting it installed on a fresh machine.
 Adding these lines to your `.vimrc`, fixes that : 
 
-```
+```bash
 " Setting up Vundle - the vim plugin bundler
     let iCanHazVundle=1
     let vundle_readme=expand('~/.vim/bundle/vundle/README.md')

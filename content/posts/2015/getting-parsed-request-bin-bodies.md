@@ -6,7 +6,7 @@ title: Getting parsed Request Bin bodies
 
 **TL;DR** 
 
-```
+```bash
 curl -s 'http://requestb.in/api/v1/bins/YOUR_BIN_ID/requests' | jq '.[] | .body' | node -e 'var counter=0;require("readline").createInterface({input: process.stdin}).on("line", function (line) { require("fs").writeFileSync((++counter).toString() + ".json", JSON.parse(line));});'
 ```
 
@@ -25,13 +25,13 @@ Luckily, RequestBin has a an API:
 
 **NOTE**: 'If you created a private bin, you'll need to add the session cookie in your `curl` request:
 
-```
+```bash
 curl -s 'http://requestb.in/api/v1/bins/YOUR_BIN_ID/requests' -H 'Cookie: session=BLAAAAAAAAAAAAAAAAAAAAAAAAAAA' 
 ```
 
 ### And BOOM:
 
-```
+```json
 {
   "remote_addr": "IP.00.0.000",
   "method": "POST",
@@ -74,7 +74,7 @@ Ok awesome, now I had loads of info, but all I was interested of was the JSON bo
 
 A simple pipe with a selector filtered the request
 
-```
+```bash
 curl -s 'http://requestb.in/api/v1/bins/YOUR_BIN_ID/requests' | jq '.[] | .body' 
 ```
 
@@ -86,7 +86,7 @@ Let's pipe them through `node`!
 
 **NOTE**: needs `node` v0.12 and up..
 
-```
+```javascript
 var counter=0;
 require("readline").createInterface(
   {
@@ -99,7 +99,7 @@ require("readline").createInterface(
 
 ### To summarize
 
-```
+```bash
 curl -s 'http://requestb.in/api/v1/bins/YOUR_BIN_ID/requests' | jq '.[] | .body' | node -e 'var counter=0;require("readline").createInterface({input: process.stdin}).on("line", function (line) { require("fs").writeFileSync((++counter).toString() + ".json", JSON.parse(line));});'
 ```
 

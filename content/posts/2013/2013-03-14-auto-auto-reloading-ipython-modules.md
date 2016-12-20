@@ -12,7 +12,7 @@ However, it’s kind of annoying to exit and re-enter ipython when you change yo
 
 There’s an extension built into ipython called autoreload which can be loaded by entering:
 
-```
+```python
 %load_ext autoreload
 %autoreload 2
 ```
@@ -23,7 +23,7 @@ But entering those lines each time you pop open ipython isn’t fun either.
 
 Enter ipython profiles!
 
-```
+```bash
 ipython profile create
 cat << EOF >> ~/.config/ipython/profile_default/ipython_config.py
 

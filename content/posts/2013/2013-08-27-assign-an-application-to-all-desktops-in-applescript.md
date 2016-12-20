@@ -16,13 +16,13 @@ Anyhow, I'm using [slate](https://github.com/jigish/slate) for automagically pos
 
 You can run this script from the shell (if you chmod it): 
 
-```
+```applescript
 assignTo this|all Chrome Adium "App with spaces"
 ```
 
 Source
 
-```
+```applescript
 #!/usr/bin/osascript
 script assignTo
 	on toAllDesktops(appsList)

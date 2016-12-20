@@ -13,7 +13,7 @@ To do this, we can usual a small but usefull nugget from nginx:
 
 *HERE BE DRAGONS*
 
-```
+```nginx
 proxy_intercept_errors on;
 ```
 
@@ -21,7 +21,7 @@ This ensures that if the proxied backend returns an error status, nginx will be 
 
 We need to tell nginx to handle the 404:
 
-```
+```nginx
 server { 
   #...
   error_page 404 = @404;
@@ -31,7 +31,7 @@ server {
 
 Notice the use of the `@404` location alias, it allows us to redirect as we wish:
 
-```
+```nginx
   location @404 {                                                                                                                                        
     return 302 /app-path-to-404;
   }                                                                                                                                         
@@ -39,7 +39,7 @@ Notice the use of the `@404` location alias, it allows us to redirect as we wish
 
 Here's a full sample:
 
-```
+```nginx
 upstream your-api-cluster {
   server localhost:1337 max_fails=3  fail_timeout=10s ;
   keepalive 16;

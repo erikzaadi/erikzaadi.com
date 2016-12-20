@@ -43,7 +43,7 @@ Open the directory updater and notice the following xml files:
 
 `config.xml`:
 
-```
+```xml
 <?xml version="1.0" encoding="utf-8"?>  
     <configuration xmlns="http://ns.adobe.com/air/framework/update/configuration/1.0">  
         <url>http://github.com/erikzaadi/AirOnGithub/raw/master/updater/update.xml</url>  
@@ -54,7 +54,7 @@ Open the directory updater and notice the following xml files:
 
 `update.xml`:
 
-```
+```xml
 <?xml version="1.0" encoding="utf-8"?>  
     <update xmlns="http://ns.adobe.com/air/framework/update/description/1.0">  
         <version>2.0</version>  

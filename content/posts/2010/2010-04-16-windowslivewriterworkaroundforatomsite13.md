@@ -25,7 +25,7 @@ Read the included `README` file for specific instructions..
 
 If you want an easier access to the workaround than clicking in the address mentioned in the `README`, you can add the following to your `service.config`, I added it `AdminSettingsEntireSite"=>"settingsRight"
 
-```
+```xml
 <svc:include
  name="LiteralWidget">  
     &lt;div class="widget settings area"&gt;  

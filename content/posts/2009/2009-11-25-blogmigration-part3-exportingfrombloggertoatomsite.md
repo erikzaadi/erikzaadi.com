@@ -28,7 +28,7 @@ I exported the default blog that ships with the installation of AtomSite, to a B
 
 I noticed that a couple of tags where missing regarding the author of the blog, namely the email and title:
 
-```
+```xml
 <authors>  
     <author approved="true"  
         created="2009-11-04T17:39:28.1678914+02:00"  
@@ -42,7 +42,7 @@ I noticed that a couple of tags where missing regarding the author of the blog, 
 
 The `<extended-properties />` tag needed to be replace with the following:
 
-```
+```xml
 <extended-properties>  
     <property>  
         <Key>CommentModeration</Key>  

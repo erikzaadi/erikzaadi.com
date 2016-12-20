@@ -44,14 +44,14 @@ Install node.js and npm (see [https://github.com/joyent/node/wiki/Installation](
 
 Open up your terminal :
     
-```
+```bash
 npm install fe-fu
 ```
     
 
 If everything works, you should now be able to do :
     
-```
+```bash
 fe-fu --jsDir ./js --lessDir ./css
 ```
     

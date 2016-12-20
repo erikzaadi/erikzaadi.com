@@ -24,7 +24,7 @@ I wrote this [jQuery](http://jquery.com) plug-in since it’s one of the more co
 
 Every web developer out there is familiar with the amazing [FireBug](http://www.getfirebug.com/) plug-in for FireFox, and probably also with the great logging features such as :
 
-```
+```javascript
 console.log('something to log');  
 ```
   

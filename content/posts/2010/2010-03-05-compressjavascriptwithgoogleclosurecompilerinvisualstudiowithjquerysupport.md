@@ -62,7 +62,7 @@ To overcome this problem, we'll tell the [Google Closure Compiler](http://code.g
   
     2. Create a file called `withjQuery.bat` in the same folder and add the following content:   
  
-```
+```batch
 @ECHO OFF  
   
 SET InputFile=%1  

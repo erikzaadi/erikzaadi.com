@@ -43,14 +43,14 @@ Generates the snippets, either separately (for the NOSCRIPT, and the script), or
   2. ASP.NET MVC Html Helpers        
      
 
-```
+```html
 <%= Html.GoogleAnalytics("UA-xxxxxx-x"/* Google Analytics Account ID */)%>  
 ``` 
 
    
   3. ASP.NET Web Forms        
      
-``` 
+```html
 <GoogleAnalytics:GAControl ID="GAControlID" runat="server" GoogleAnalyticsID="UA-xxxxxx-x" />  
 ```
 

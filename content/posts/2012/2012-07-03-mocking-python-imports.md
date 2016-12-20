@@ -29,7 +29,7 @@ Mock to the rescue:
 
 Running nosetest now will yield the following :
 
-```
+```bash
 nosetests
 E.
 ======================================================================

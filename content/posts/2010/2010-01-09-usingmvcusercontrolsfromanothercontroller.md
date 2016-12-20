@@ -32,7 +32,7 @@ Which is rather logical, as that’s the default behavior of the web forms view 
 
 Overcoming the problem is rather strait forward :
 
-```
+```html
 <% Html.RenderPartial("../Other/OtherControl", new string[] { "ListItem1", "ListItemN" }); %>
 ```
 

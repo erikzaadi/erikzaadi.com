@@ -18,7 +18,7 @@ The problem is the connection is not reused, and it's really slow when vim (scp)
 
 To solve that, save this script and `chmod a+x` it..
 
-```
+```bash
 #!/bin/bash
 echo "vim-scp FTW"
 if [ $# -ne 2 ]; then
@@ -41,7 +41,7 @@ Then the script calls vim with the wanted path to edit, and finally kills the ba
 
 Run 
 
-```
+```bash
 vim-scp myuser@some.host.com /dir/path/or_file
 ```
 

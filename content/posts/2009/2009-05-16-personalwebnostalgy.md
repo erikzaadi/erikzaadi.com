@@ -24,7 +24,7 @@ Well, needless to say, IE4 was targeted as the default browser..
 
 Here's a small snippet used for achieving a mouseover image swap:
 
-```
+```html
 <a 
     onmouseover="document['fpAnimswapImgFP1'].imgRolln=document['fpAnimswapImgFP1'].src; document['fpAnimswapImgFP1'].src=document['fpAnimswapImgFP1'].lowsrc;"
     onmouseout="document['fpAnimswapImgFP1'].src=document['fpAnimswapImgFP1'].imgRolln" 

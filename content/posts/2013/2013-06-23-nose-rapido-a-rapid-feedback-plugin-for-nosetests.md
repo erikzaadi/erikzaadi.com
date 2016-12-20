@@ -21,25 +21,25 @@ It fills your terminal with green (or optionally blue for the colorblinded) or r
 
 Install
 
-```
+```bash
 pip install nose-rapido
 ```
 
 Run
 
-```
+```bash
 nosetests --with-rapido
 ```
 
 With `nose-watch`
 
-```
+```bash
 nosetests --with-rapido --with-watch
 ```
 
 With blue colors instead of green
 
-```
+```bash
 nosetests --with-rapido --rapido-blue
 ```
 

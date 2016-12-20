@@ -16,7 +16,7 @@ Install the LiveReload browser extension, see [long explanation](http://feedback
 
 Edit `Gemfile` and add the following two lines:
 
-```
+```ruby
 source "http://rubygems.org"
 
 group :development do
@@ -28,7 +28,7 @@ end
 
 Create a `Guardfile` with the following content:
 
-```
+```ruby
 guard 'livereload' do
   watch(%r{public/.+\.(css|js|html)})
 end

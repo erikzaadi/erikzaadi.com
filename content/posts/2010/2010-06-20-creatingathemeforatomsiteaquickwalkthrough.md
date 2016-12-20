@@ -58,7 +58,7 @@ homepage, author, contributor and dates (published, updated).
 
     Add the following to the created CSS file:
 
-```
+```css
 body {
     background : transparent url('../../img/sample/background.jpg') repeat fixed;
 }
@@ -79,14 +79,14 @@ My CSS Fu can be disputed, and from what I've experienced so far, I've usually n
 	
   11. Edit the copied _"Site.Master"_ and add :
 
-```
+```html
 <h3>I can has my custom sub sub title!</h3>
 <h4>Even with dynamic content (Today == <%= DateTime.Now.ToString() %>)!</h4>
 ```
 
 right after :
 
-```
+```html
 <h1><a href="/"><%= Model.Workspace.Title %></a></h1>
 <h2><%= Model.Workspace.Subtitle %></h2>
 ```
@@ -100,7 +100,7 @@ right after :
 Although it's a very powerful framework, I have to admit that I personally prefer writing my own or using [blueprintcss](http://www.blueprintcss.org/).
 To disable the YUI framework in your theme, remove the following line from the file _"Site.Master"_ in your theme folder:
 
-```
+```html
 <link rel="stylesheet" type="text/css" href="<%= Url.StyleHref("reset-fonts-grids-2.7.0.css") %>" />
 ```
 
@@ -111,7 +111,7 @@ Change the following in the _"Site.Master"_ to fix the link in the header:
 To Find
 Replace with
 
-```
+```html
 <h1><a href="/"><%= Model.Workspace.Title %></a></h1>
 <h1><a href="<%= Url.Content("~/)"><%= Model.Workspace.Title %></a></h1>
 ```
@@ -168,7 +168,7 @@ I've written a plugin to [AtomSite](http://atomsite.net) which exposes Html and 
 
 Example:
 
-```
+```html
 <ul>
 
 

@@ -15,7 +15,7 @@ The part that specifically interested me was turning JSON into JSONP compatible 
 What bothered me though was the fact that the name of the method to pad into the JSON response was hard coded.
 
 Here's Gabriels code snippet:
-```
+```nginx
 #Gabriel Weinbegs Code Snippet http://www.gabrielweinberg.com/blog/2011/07/nginx-json-hacks.html
 location ^~ /ext_api3/ {
     echo_before_body 'parseResponse(;
@@ -26,7 +26,7 @@ location ^~ /ext_api3/ {
 When you use jQuery to do an ajax request, you add `?callback=?` to your url, which will be replaced by a random function name, E.g: `callback=jQuery123123`.
 To achieve the same with nginx, I modified the snippet:
 
-```
+```nginx
 #Modified to handle callback variable
 location /json/ { #can be any location of course
     if ( $arg_callback ) {
@@ -39,7 +39,7 @@ location /json/ { #can be any location of course
 ```
 
 Now if we take a simple JSON file:
-```
+```json
 {
     "aa" : "bb",
     "cc" : 123
@@ -47,7 +47,7 @@ Now if we take a simple JSON file:
 ```
 
 And call nginx to fetch it via the location we configured in the snippet above, with the url `http://server.com/json/sample.json?callback=Ahoy` we'd get:
-```
+```javascript
 Ahoy({
     "aa" : "bb",
     "cc" : 123

@@ -37,7 +37,7 @@ I needed the current files `filetype` to be both `ansible` and `yaml`.
 
 So I could do an `autocmd` in my `.vimrc` that'll set the `filetype` to both by using a dot as a connector:
 
-```
+```bash
 au BufNewFile,BufRead *.yaml set filetype=yaml.ansible
 ```
 
@@ -56,7 +56,7 @@ Either wait for the pull request<del>s</del> to land, _OR_:
 
 Use my forks in your Vundle / Pathogen / NeoWHATEVER:
 
-```
+```bash
 Plugin 'erikzaadi/vim-ansible-yaml'
 ``` 
 **NO LONGER NEEDED**, just update your syntastic!

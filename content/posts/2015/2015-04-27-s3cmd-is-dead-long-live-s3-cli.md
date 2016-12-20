@@ -19,7 +19,7 @@ This is a inplace replace to `s3cmd`, written in node (yaay!), which works flawl
 
 I did a quick change to the Octopress Rakefile
 
-```
+```diff
 diff --git a/Rakefile b/Rakefile
 index fccdd5e..47f3e09 100755
 --- a/Rakefile

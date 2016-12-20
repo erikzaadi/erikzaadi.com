@@ -19,14 +19,14 @@ Then I discovered about [on demand loading of plugins](https://github.com/junegu
 
 This simply is a killer feature:
 
-```
+```bash
 Plug 'scrooloose/nerdtree', { 'on':  ['NERDTreeToggle', 'NERDTreeFind'] } "Loads only when opening NERDTree
 Plug 'fatih/vim-go', { 'for' : ['go', 'markdown'] } "Loads only when editing golang files
 ```
 
 There are also post install hooks:
 
-```
+```bash
 Plug 'Valloric/YouCompleteMe', { 'do' : '~/.vim/plugged/YouCompleteMe/install.py --gocode-completer --tern-completer' }
 Plug 'nsf/gocode', { 'rtp': 'vim', 'do': '~/.vim/plugged/gocode/vim/symlink.sh', 'for' : ['go', 'markdown'] }
 ```

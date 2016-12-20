@@ -23,7 +23,7 @@ On Ubuntu 11.04 this should work out of the box, but the script below will allow
 
 Save this script somewhere on your disk:
 
-```    
+```bash
 #!/bin/sh
 sleep 10
 xinput --set-prop --type=int --format=32 "SynPS/2 Synaptics TouchPad" "Synaptics Two-Finger Pressure" 4
@@ -37,7 +37,7 @@ xinput --set-prop --type=int --format=8 "SynPS/2 Synaptics TouchPad" "Synaptics 
 
 Open `System` => `Preferences` => `Startup application` and add a new startup item :
 
-```
+```bash
 sh /path/to/your/script.sh
 ```
 

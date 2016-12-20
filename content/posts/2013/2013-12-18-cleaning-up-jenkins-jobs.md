@@ -17,7 +17,7 @@ So, every once in a while, I cleanup old unused jobs that are left over.
 
 `delete_non_active_jobs.py`
 
-```
+```python
 import urllib2
 import os
 from shutil import rmtree
@@ -43,7 +43,7 @@ if __name__ == '__main__':
 
 Delete them allz'
 
-```
+```bash
 cd ${JENKINS_HOME}
 #note Jenkins must be up
 python delete_non_active_jobs.py

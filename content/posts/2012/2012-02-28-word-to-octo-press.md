@@ -18,7 +18,7 @@ It took me one late night hack to get everything up and running.
 I used [exitWP](https://github.com/thomasf/exitwp)'s script to generate markdown posts.
 Then I did some sed magic to add comments
 
-```
+```yaml
 comments: true
 ``` 
 
@@ -30,7 +30,7 @@ I imported all my comments to [disqus](http://disqus.com) using the same WXR exp
 
 I changed the permalinks format a bit to keep the same url scheme as wordpress for the posts, and changed the category scheme to fit as well:
 
-```
+```yaml
 permalink: /:year/:month/:day/:title/
 #permalink: /blog/:year/:month/:day/:title/
 ...

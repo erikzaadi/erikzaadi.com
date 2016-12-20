@@ -29,7 +29,7 @@ I've created two small scripts, one for the wget lovers, the other for curl, tha
 **curl Version**
 
 
-```    
+```bash
 #!/bin/bash
 curl --data username=ronen egged.co.il/login
 curl egged.co.il/status
@@ -38,7 +38,7 @@ curl egged.co.il/status
 
 **wget Version**
 
-```
+```bash
 #!/bin/bash
 wget --post-data username=ronen egged.co.il/login
 wget egged.co.il/status

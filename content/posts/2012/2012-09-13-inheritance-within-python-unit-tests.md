@@ -18,7 +18,7 @@ And you want to write some simple unit tests for them, typically you'd do someth
 
 running them with `nosetests -v` will get you the following result:
 
-```
+```bash
 nosetests -v test_components_verbose
 user@host:gist-3731389|‹master› ⇒  nosetests -v test_components_verbose.py
 Test that initialized is set. ... ok
@@ -40,7 +40,7 @@ But of course, inheritance..
 
 Say that we create a base test class, and let `TestA` and `TestB` inherit that class, wouldn't that be cool?
 
-```
+```python
 #base_test_class.py
 from unittest import TestCase
 
@@ -66,7 +66,7 @@ class BaseTestClass(TestCase):
         self.assertEquals(comp.initialized, True)
 ```
 
-```
+```python
 #test_components.py
 from base_test_class import BaseTestClass
 from components import AClass, BClass
@@ -85,7 +85,7 @@ class TestB(BaseTestClass):
 
 Running `nosetest -v` now should work right?
 
-```
+```bash
 nosetests -v test_components
 user@host:gist-3731389|‹master› ⇒  nosetests test_components -v
 BaseTestClass : Test that initialized is set. ... ERROR
@@ -125,7 +125,7 @@ Since the base class and the test classes (in the end) inherits `unittest.TestCa
 
 Have no fear, we're in the magic unicorn world of python, there's a magic property that fixes this:
 
-```
+```python
 #base_test_class.py
 from unittest import TestCase
 
@@ -147,7 +147,7 @@ Note that you need to explicitly set `__test__` to `True` in the child classes.
 
 Running `nosetests -v test_components` again should yield the following result:
 
-```
+```bash
 nosetests -v test_componets
 user@host:gist-3731389|‹master› ⇒  nosetests test_components -v
 Test that initialized is set. ... ok
@@ -171,7 +171,7 @@ Adding a bit more python magic and voila :
 
 Running `nosetests -v` now shows the following stunning (!) result:
 
-```
+```bash
 nosetests -v test_components
 user@host:gist-3731389|‹master› ⇒  nosetests test_components -v
 TestA : Test that initialized is set. ... ok

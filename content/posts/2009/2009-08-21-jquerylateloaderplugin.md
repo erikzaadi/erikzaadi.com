@@ -31,7 +31,7 @@ This plugin will allow you to include scripts ands css files dynamically, with s
 
 #### Usage
 
-``` 
+```javascript
 $.LateLoader =   
 
 {  

@@ -13,7 +13,7 @@ Thunderbird will fail miserably without any explanations, and Mutt will complain
 Open the mailbox (`/var/mail/$USER` usually) in your favorite editor (`vim` of course), and have a look at the beginning of the file:
 
 It should start like this:
-```
+```bash
 From username Sun Jul  8 2012
 Content-Transfer-Encoding: 7bit
 Content-Type: text/plain; charset=UTF-8
@@ -27,7 +27,7 @@ MIME-Version: 1.0
 ```
 
 If your mail file is corrupted, you'll see that it simply lacks the first `F` character:
-```
+```bash
 rom username Sun Jul  8 2012
 Content-Transfer-Encoding: 7bit
 Content-Type: text/plain; charset=UTF-8
