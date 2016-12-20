@@ -18,14 +18,16 @@ Having been to 3 different [DevOpsDays](https://www.devopsdays.org/) conferences
 
 One was a 5 minutes ignite, about the similarities between DevOps and Kung Fu, something I've been tinkering with for over a year, since DevOpsDays Tel Aviv 2015.
 
-The second talks was a full 30 minutes talk about how we do ChatOps at BigPanda.
+The second talk was a full 30 minutes talk about how we do ChatOps at BigPanda.
 
 ### ZOMG The talks were accepted!
 
 Initially, I was notified that the ChatOps talk was approved.
+
 Then, a week later, I got notified that the ignite was also approved.
 
 I was quite surprised that the first talk got accepted, when I got the second approval, I actually mailed the organizers to verify that it was not a mistake.
+
 Mainly because I didn't remember seeing people giving more than one talk.
 
 ### Life then decided to give me some issues
@@ -34,7 +36,7 @@ During a Kung Fu practice, I teared my calf muscle.
 
 Yes, the irony.
 
-This meant that I practicably confined at home, with no way to walk.
+This meant that I practically confined at home, with no way to walk.
 
 Yay.
 
@@ -62,9 +64,9 @@ Initially the rehearsals audience were the target audience for the conference (A
 
 Small FYI, in Israel, if you have a room with 4 people, you have 7 different opinions.
 
-The presentation started to take form, from the initial raw to a more refined and tuned state.
+The presentation started to take form, from the initial raw to a more refined and fine tuned state.
 
-I started to get confident in presenting it.
+I started to get confident in presenting the presentation.
 
 I timed each rehearsal, initially I'd sit due to my leg condition, but later standing to get a better _"presenting"_ feeling.
 
@@ -74,7 +76,7 @@ The Kung Fu ignite was scheduled on the first of the two conference days (and fi
 
 I had this fear that if the ignite wasn't good enough, people might be reluctant to come to the ChatOps talk.
 
-I created my ignite presentation, and rehearsed it once in front of an audience.
+I created my ignite presentation, and rehearsed it once in front of an audience at BigPanda.
 
 Initially, the ignites were set to be 10 minutes, which I didn't really get to at the rehearsals (got to ~7 minutes).
 
@@ -82,9 +84,13 @@ Later, I was notified that the slides were to be 15 seconds each.
 
 Finally, the 15 seconds per slides limitation was removed, and a total time limit of 5 minutes was asked for.
 
+I rehearsed in front of my wife, which is in a way the target audience due to her kick ass martial arts background.
+
 ### A week before the conference
 
 My physical condition improved even more, and I was able to return the crutches, and boldly limp my way to fame.
+
+I did almost daily self rehearsals, where I'd speak the presentations out loud and time it.
 
 ### At the day of the conference
 
@@ -178,3 +184,10 @@ BigPanda's booth was a big success as well, our shiny new stickers were DA THING
 #### ChatOps Talk:
 
 <script async class="speakerdeck-embed" data-id="f8064d29639e4fa3a5e08be0472aa340" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
+
+
+# I'd like to thank
+
+The BigPanda team (Shahar, Ofer, Caduri, Hagai, Noa, Roman and even my favorite douche Itamar).
+
+My wife for staying awake while I bore her with DadOps puns.
