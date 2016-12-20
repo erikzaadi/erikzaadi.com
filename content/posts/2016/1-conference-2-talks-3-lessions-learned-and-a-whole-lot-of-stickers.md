@@ -84,7 +84,7 @@ Later, I was notified that the slides were to be 15 seconds each.
 
 Finally, the 15 seconds per slides limitation was removed, and a total time limit of 5 minutes was asked for.
 
-I rehearsed in front of my wife, which is in a way the target audience due to her kick ass martial arts background.
+I rehearsed in front of my wife, whom is in a way the target audience due to her kick ass martial arts background.
 
 ### A week before the conference
 
