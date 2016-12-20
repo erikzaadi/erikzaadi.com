@@ -1,0 +1,16 @@
+language: go
+go: 1.7.4
+deploy:
+  provider: s3
+  access_key_id: AKIAJ7F7TUCODJYRXFCQ
+  secret_access_key:
+    secure: Qdt0ikUFI5YVaEdP0Wjw19siqNFwUGcZV5cMXyzHOWXea4yTcTMTHDr4F/wxe3mHgHtN1IMg2kLagstBSVxBMsksOlvPUSXkfEKo3N+4p1yfSi/V54VO7oYBLH8fDNDFC+vpnvOWqJsZ/4Tak7zvUtkiJuxTYlxkfLkLb/d7ULXkB2OPK5Uvq8HFPF2f8d7ZcO30hegJFVFeFHnAaCwZRNicNgIZFhntJCGJOXMjzmqaY2+LjuAXgEGWKn09TffXto1gWJecYmFWkSdz32wbB43E7+ikFePRRnmmgpmFLEemuiiCZIqYRZ1L2DFpy5vWVhAlQYUAzraM7b/JPPzJGI3C57/u1jwPYNLw37d7X0Ry3gMgfFN8OIaDyX3AqWmGV5TPri6i0mUwtHSDBu5phdcQ3DpFsfWn113vJ7hY3fEUhM+OL77SwX5DaTLjKYVAlqcsKuPddnJUgZr2Rh9mEKewMwuYg31V+OhykMULesalQ0OJhhJPbJ9xWH6hx9UVj4hO9OE/Uj00TbMFIcJFE5KfNwoqB3kWY2a8fLDhgjA1AD7ymstvKzq9J0mZheOsR2pGuJuQ/rrMjJtRQgyWZ/0YlMw2jwfMk3vTcAnmqjEYl/49KW4QWAdqkHX9WsGpMu/kMJWRlBVAYA5v+c4KHxu2+Cl84TKjFxfYyplKZGE=
+  bucket: erikzaadi.com
+  local-dir: public
+  no_cleanup: true
+  skip_cleanup: true
+  acl: public_read
+  on:
+    repo: erikzaadi/erikzaadi.com
+  detect_encoding: true
+  cache_control: max-age=86400
