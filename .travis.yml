@@ -1,6 +1,9 @@
 language: go
 go: 1.7.4
 script: ./travis.sh
+install:
+- mkdir -p "$TRAVIS_BUILD_DIR/gosrc"
+- go get -v github.com/spf13/hugo
 deploy:
   provider: s3
   access_key_id: AKIAJ7F7TUCODJYRXFCQ
