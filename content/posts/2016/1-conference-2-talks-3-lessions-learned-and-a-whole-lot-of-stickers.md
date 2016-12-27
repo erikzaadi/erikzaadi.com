@@ -173,7 +173,14 @@ BigPanda's booth was a big success as well, our shiny new stickers were DA THING
 
 ## Videos
 
-**TBD:** _Waiting for the DevOpsDays crew to upload them.._
+
+### Kung Fu: 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yQN36wM8M-4" frameborder="0" allowfullscreen></iframe>
+
+### ChatOps: 
+
+**TBD:** _Waiting for the DevOpsDays crew to upload it.._
 
 ## Presentations
 
