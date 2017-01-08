@@ -2,7 +2,8 @@ language: go
 go: 1.7.4
 script: ./travis.sh
 install: ./travis-install.sh
-after_success: ./minify.sh && ./notify.sh
+after_success: ./minify.sh
+after_deploy: ./notify.sh
 deploy:
   provider: s3
   access_key_id: AKIAJ7F7TUCODJYRXFCQ
