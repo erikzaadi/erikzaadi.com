@@ -2,7 +2,7 @@ language: go
 go: 1.7.4
 script: ./travis.sh
 install: ./travis-install.sh
-after_success: ./minify.sh
+after_success: ./minify.sh && ./notify.sh
 deploy:
   provider: s3
   access_key_id: AKIAJ7F7TUCODJYRXFCQ
@@ -17,3 +17,6 @@ deploy:
     repo: erikzaadi/erikzaadi.com
   detect_encoding: true
   cache_control: max-age=86400
+env:
+  global:
+    secure: SBj+1cP4yDHKrNPUsmGuA5JeNfhCMIJ7rJUnWtabx2hWY+0y59NSe9F9ZaK7TXjE7kN02V+oei1g69wHnk4nD3C5VT6jMZC+CZkHdZ2/Nfwacey8SGFJY255Mk6V9/jv+y/h2UfJblyL0Y7MrfDWlsy3S2DF+77HerSBadBD9Pvy8hT4WKobkLv1YC+ZNVMtvcY0jBwshfSMLkT+6BbKblqWJsEJ+4UlzUI9mo1hM7yoU7jlEf1GZ+cOwnGHwFhsoZFYXTTkFP2aWAU0bR/qBseQ2KqzA45ME6rvi5Gg45SRzJTbRiNtKlFiUXi2N2vFrg5Pky1e15Y6sc7qJFOP7fQtfPFHplHWmuvLbCpXoY43vtofDYRnatFfRFrwm7qDvAN8wStJJT75zmGnwCZ/xBG5LnO3CkTBVhngjT2D2KpvS5QfSpPAlPzldVPRXBj1EmQsdXwLoddbcPukBFeca32UtvDHDYJQV+/XxcZQcnh+bCCX4f09niTgO+7gk9qUqm87nhLgVsfeTEd6bUnNEqE+Im/QEmb51ufu75FhFQiEuObfloWhRJTSVSZc1lMTGAPXWPu9XePKhdj5gU8OPl1DyycRhQDeIRytFK23697jbDNlCGPYlCRLBtr0rtmRmBuy8i0EzfANVxOLKjn+y0+BdLyiIg1Nps6DpCcf+qE=
