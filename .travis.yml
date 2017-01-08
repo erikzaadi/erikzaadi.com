@@ -1,10 +1,7 @@
 language: go
 go: 1.7.4
 script: ./travis.sh
-install:
-- mkdir -p "$TRAVIS_BUILD_DIR/gosrc"
-- go get -v github.com/spf13/hugo
-- go get -v github.com/tdewolff/minify/cmd/minify
+install: ./travis-install.sh
 after_success: ./minify.sh
 deploy:
   provider: s3
