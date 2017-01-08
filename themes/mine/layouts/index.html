@@ -1,5 +1,6 @@
 	{{ partial "head.html" . }}
 	<body data-base-url="{{ .Site.BaseURL }}">
+
     {{ partial "nav.html" . }}
 
     {{ partial "profile.html" . }}
@@ -10,6 +11,7 @@
         {{ partial "footer.html"     . }}
     </section>
 
+    {{ partial "deferredcss.html" . }}
     {{ partial "js.html" . }}
     </body>
 </html>
