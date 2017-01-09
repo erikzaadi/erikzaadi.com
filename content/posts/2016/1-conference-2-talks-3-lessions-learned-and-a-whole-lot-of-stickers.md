@@ -36,7 +36,7 @@ During a Kung Fu practice, I teared my calf muscle.
 
 Yes, the irony.
 
-This meant that I practically confined at home, with no way to walk.
+This meant that I was practically confined at home, with no way to walk.
 
 Yay.
 
@@ -133,7 +133,7 @@ I thought it wouldn't matter much, and started to think of puns to say in the pr
 
 ### Showtime again
 
-I started off the talk with _"Funny story")_, showing the last slide and explaining the lunch pun.
+I started off the talk with _"Funny story"_, showing the last slide and explaining the lunch pun.
 
 Needless to say that people didn't find it hilarious, and this really rocked my cocky confidence.
 
