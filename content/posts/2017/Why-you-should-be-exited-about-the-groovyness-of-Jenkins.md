@@ -2,7 +2,7 @@
 
 date: 2017-02-07T08:30:59+02:00
 description: "Because Jenkins also needs to be automated..."
-title: "Why you should be exited about the groovyness of Jenkins"
+title: "Why you should be excited about the groovyness of Jenkins"
 categories: ['Jenkins', 'CI', 'groovy']
 tags: ['Jenkins', 'CI', 'groovy']
 
