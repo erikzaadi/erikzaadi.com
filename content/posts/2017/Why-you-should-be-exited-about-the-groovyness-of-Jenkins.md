@@ -1,6 +1,6 @@
 ---
 
-date: 2017-02-07T08:30:59+02:00
+date: 2017-02-07T08:31:59+02:00
 description: "Because Jenkins also needs to be automated..."
 title: "Why you should be excited about the groovyness of Jenkins"
 categories: ['Jenkins', 'CI', 'groovy']
