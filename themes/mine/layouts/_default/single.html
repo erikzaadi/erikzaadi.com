@@ -22,15 +22,8 @@
                     {{ with .Site.Params.twitter }}</a>{{ end }}
             </footer>
 
-            {{ if isset .Site.Params "disqusShortname" }}
-				{{ if isset .Params "comments" }}
-					{{ if .Params.comments }}
-						{{ partial "disqus.html" . }}
-					{{ end }}
-				{{ else }}
-					{{ partial "disqus.html" . }}
-				{{ end }}
-			{{ end }}
+            {{ partial "disqus.html" . }}
+
             {{ partial "latest-posts.html" . }}
             {{ partial "footer.html" . }}
         </section>
