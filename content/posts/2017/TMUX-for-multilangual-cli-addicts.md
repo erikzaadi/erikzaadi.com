@@ -17,7 +17,7 @@ You enter a state of **CLI ROAD RAGE**.
 
 ![](/images/road-rage-phone.gif)
 
-You curse the old gods of QUERTY, check your keyboard battery level (_/hipster_), gurgle quotes such as:
+You curse the old gods of QWERTY, check your keyboard battery level (_/hipster_), gurgle quotes such as:
 
 > That wouldn't happen in linux
 
