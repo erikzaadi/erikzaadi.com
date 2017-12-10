@@ -9,9 +9,9 @@ tags: ['node.js', 'ci', 'github']
 ## node.js packaging
 
 [node.js](https://nodejs.org) and `npm` have been through a lot since I started using them.
-From wether or not to commit dependencies (THE HORROR) to git, to slow installations, you name it.
+From whether or not to commit dependencies (THE HORROR) to git, to slow installations, you name it.
 
-One of the most horrific atrocities for me have always been the fact that the version is hardcoded in the file `package.json`.
+One of the most horrific atrocities for me has always been the fact that the version is hardcoded in the file `package.json`.
 
 !['Whyyyz'](/images/why-hardcode.jpg)
 
@@ -37,7 +37,7 @@ In each node.js library or service, the `package.json` contains the version `0.0
 
 !['Take package.json to /dev/null'](/images/take-package-json-to-dev-null.jpg)
 
-At the CI build, before creating the artifact to be uploaded (service or npm package), we bump the `package.json`'s version withe latest git tag, using the following command:
+At the CI build, before creating the artifact to be uploaded (service or npm package), we bump the `package.json`'s version with latest git tag, using the following command:
 
 ```bash
 npm version --no-git-tag-version $(git describe | cut  -c 2- | awk -F \- '{print $1};')
