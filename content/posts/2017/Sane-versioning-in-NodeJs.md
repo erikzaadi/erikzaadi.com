@@ -15,7 +15,7 @@ One of the most horrific atrocities for me has always been the fact that the ver
 
 !['Whyyyz'](/images/why-hardcode.jpg)
 
-It has always peskered me that it's not simply taken from a git tag, like sane languanges do.
+It has always peskered me that it's not simply taken from a git tag, like sane languages do.
 
 However, since it's the common practice, and besides annoying me, it didn't block anything important enough, I never really did something about it until recently.
 
@@ -23,7 +23,7 @@ However, since it's the common practice, and besides annoying me, it didn't bloc
 
 At [BigPanda](https://bigpanda.io), all our node.js services are created as an artifact as a part of the CI process, to speed up deployment time.
 
-In addition, the node.js libraries are precompiled and _"dumbed down"_ using babel so they can be used using any node.js runtime that might need them, then packaged as an artifact (npm package) to be downloaded as a dependency.
+In addition, the node.js libraries are precompiled and _"dumbed down"_ using babel so they can be consumed by any node.js runtime that might need them, then packaged as an artifact (npm package) to be downloaded as a dependency.
 
 This has worked good for a while, but it creates one limitation, to release a feature (merge a feature branch), you need to create an additional commit just for bumping the version in `package.json`.
 
@@ -49,11 +49,11 @@ This might seem a bit magic, but it simply uses the latest git tag, which in our
 
 The `--no-git-tag-version` parameter makes `npm` only change `package.json`, without adding a tag or a commit for the bump.
 
-This means that each service and library's artifact includes correct version in the archived `package.json`.
+This means that each service and library's artifact includes the correct version in the archived `package.json`.
 
 _Unt Viola!_ No extra commit to bump the version, and we can make sure by using Github's protected branches feature, that no merges are done without review (and tests).
 
-The only small issue left is at dev time, where our devs need to do `git describe` to se what version they're on, but that's a no brainer, and solved through process.
+The only small issue left is at dev time, where our devs need to do `git describe` to see what version they're on, but that's a no brainer, and solved through a process.
 
 ## But that's not the standard?!?!
 
