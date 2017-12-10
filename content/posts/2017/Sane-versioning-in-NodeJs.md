@@ -51,7 +51,7 @@ The `--no-git-tag-version` parameter makes `npm` only change `package.json`, wit
 
 This means that each service and library's artifact includes the correct version in the archived `package.json`.
 
-_Unt Viola!_ No extra commit to bump the version, and we can make sure by using Github's protected branches feature, that no merges are done without review (and tests).
+_Unt Voila!_ No extra commit to bump the version, and we can make sure by using Github's protected branches feature, that no merges are done without review (and tests).
 
 The only small issue left is at dev time, where our devs need to do `git describe` to see what version they're on, but that's a no brainer, and solved through a process.
 
