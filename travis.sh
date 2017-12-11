@@ -1,9 +1,10 @@
 #!/bin/bash
-if [[ -d ./public ]]; then
-    rm -rf ./public
+SCRIPT_BASE="$( cd -P "$( dirname "$0" )" && pwd )"
+if [[ -d ${SCRIPT_BASE}/public ]]; then
+    rm -rf ${SCRIPT_BASE}/public
 fi
 DRAFTS=""
-if [[ "$TRAVIS_BRANCH" != "master" ]]; then
-    DRAFTS="-D"
+if [[ "$TRAVIS_BRANCH" = "preview" ]]; then
+    DRAFTS="-D -b http://blogpreview.erikzaadi.com/"
 fi
-$GOPATH/bin/hugo ${DRAFTS}
+${SCRIPT_BASE}/bin/hugo ${DRAFTS}

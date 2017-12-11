@@ -1,13 +1,28 @@
 #!/bin/bash
-HUGO_VERSION=0.31.1
 set -x
 set -e
 
-mkdir -p "$TRAVIS_BUILD_DIR/gosrc"
-go get -v github.com/tdewolff/minify/cmd/minify
+SCRIPT_BASE="$( cd -P "$( dirname "$0" )" && pwd )"
+BIN_DIR="${SCRIPT_BASE}/bin"
 
-# Install Hugo if not already cached or upgrade an old version.
-if [ ! -e ${TRAVIS_BUILD_DIR}/bin/hugo ] || ! [[ `hugo version` =~ v${HUGO_VERSION} ]]; then
-  curl -s -L https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-64bit.tar.gz | tar xvzf -
-  mv ./hugo ${GOPATH}/bin/hugo
+HUGO_VERSION=0.31.1
+MINIFY_VERSION=2.3.4
+
+if [[ ! -d ${BIN_DIR} ]]; then
+    mkdir ${BIN_DIR}
 fi
+
+function install_from_github_release() {
+    REPO=$1
+    EXECUTABLE=$2
+    VERSION=$3
+    TAR_SUFFIX=$4
+    cd ${BIN_DIR}
+    if [[ ! -e ./${EXECUTABLE} ]]; then
+      curl -s -L https://github.com/${REPO}/releases/download/v${VERSION}/${EXECUTABLE}_${VERSION}_${TAR_SUFFIX}.tar.gz | tar xvzf -
+    fi
+    cd ${SCRIPT_BASE}
+}
+
+install_from_github_release gohugoio/hugo hugo ${HUGO_VERSION} Linux-64bit
+install_from_github_release tdewolff/minify minify ${MINIFY_VERSION} linux_amd64

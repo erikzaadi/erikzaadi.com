@@ -1,4 +1,5 @@
-language: go
+dist: trusty
+sudo: false
 go: 1.7.4
 script: ./travis.sh
 install: ./travis-install.sh
@@ -30,7 +31,7 @@ deploy:
   acl: public_read
   on:
     repo: erikzaadi/erikzaadi.com
-    condition: "$TRAVIS_BRANCH != master"
+    branch: preview
   detect_encoding: true
   cache_control: max-age=86400
 env:

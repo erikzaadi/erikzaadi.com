@@ -1,8 +1,9 @@
 #!/bin/bash
-PUBLIC_DIR=public
+SCRIPT_BASE="$( cd -P "$( dirname "$0" )" && pwd )"
+PUBLIC_DIR=${SCRIPT_BASE}/public
 
 function minify {
-    find ${PUBLIC_DIR} -name $1 -exec echo "Minifying {}" \; -exec minify --html-keep-document-tags -a {} -o {} \;
+    find ${PUBLIC_DIR} -name $1 -exec echo "Minifying {}" \; -exec ${SCRIPT_BASE}/bin/minify --html-keep-document-tags -a {} -o {} \;
 }
 
 function gzip {
