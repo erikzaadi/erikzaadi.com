@@ -2,4 +2,8 @@
 if [[ -d ./public ]]; then
     rm -rf ./public
 fi
-$GOPATH/bin/hugo
+DRAFTS=""
+if [[ "$TRAVIS_BRANCH" != "master" ]]; then
+    DRAFTS="-D"
+fi
+$GOPATH/bin/hugo ${DRAFTS}
