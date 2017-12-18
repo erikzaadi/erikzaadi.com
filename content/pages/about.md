@@ -5,7 +5,9 @@ title: whoami
 comments: false
 ---
 
-Half breed devops and web developer.
+R&D Team Leader at [BigPanda](https://bigpanda.io).
+
+Enjoy everything from shiny web apps, beatiful APIs to seamless CI integrations.
 
 Love tinkering with [Raspberry Pi](https://raspberrypi.org) and [Spark](http://www.particle.io).
 
