@@ -7,4 +7,4 @@ DRAFTS=""
 if [[ "$TRAVIS_BRANCH" != "master" ]]; then
     DRAFTS="-D -F -b http://blogpreview.erikzaadi.com/"
 fi
-${SCRIPT_BASE}/bin/hugo ${DRAFTS}
+${SCRIPT_BASE}/bin/hugo ${DRAFTS} --noTimes
