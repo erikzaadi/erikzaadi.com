@@ -4,6 +4,10 @@ script: ./travis.sh
 install: ./travis-install.sh
 after_success: ./minify.sh
 after_deploy: ./notify.sh
+cache:
+  directories:
+  - "./bin"
+  - "./public"
 deploy:
 - provider: s3
   access_key_id: AKIAJ7F7TUCODJYRXFCQ
@@ -30,7 +34,8 @@ deploy:
   acl: public_read
   on:
     repo: erikzaadi/erikzaadi.com
-    branch: preview
+    all_branches: true
+    condition: ${TRAVIS_BRANCH} != master
   detect_encoding: true
   cache_control: max-age=86400
 env:

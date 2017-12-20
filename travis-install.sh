@@ -5,6 +5,10 @@ set -e
 SCRIPT_BASE="$( cd -P "$( dirname "$0" )" && pwd )"
 BIN_DIR="${SCRIPT_BASE}/bin"
 
+if [[ -d ${BIN_DIR} &&  "${TRAVIS_COMMIT_MESSAGE}" == *"clean"* ]]; then
+    rm -rf ${BIN_DIR}
+fi
+
 HUGO_VERSION=0.31.1
 MINIFY_VERSION=2.3.4
 
