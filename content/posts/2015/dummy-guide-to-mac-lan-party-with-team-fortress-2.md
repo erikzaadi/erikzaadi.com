@@ -10,12 +10,12 @@ So, we decided to throw together a company Lan Party *(FTW)*.
 
 Our needs were simple:
 
-* It should work on our Macs (13" MBP Retina)
-* Preferably, should work only using WIFI (Dammit those Thunderbolt => Lan adapters are expensive)
-* Should not cost anything extra per participant
-* If possible, save the need of a dedicated server
+-	It should work on our Macs (13" MBP Retina)
+-	Preferably, should work only using WIFI (Dammit those Thunderbolt => Lan adapters are expensive)
+-	Should not cost anything extra per participant
+-	If possible, save the need of a dedicated server
 
-After some digging around, we decided to give [Team Fortress 2](www.teamfortress.com) a try, here's the steps we took:
+After some digging around, we decided to give [Team Fortress 2](https://www.teamfortress.com) a try, here's the steps we took:
 
 ### Download Team Fortress 2
 
@@ -27,7 +27,7 @@ We're using Airport Extremes at the office, for us it was enough, **YMMV**.
 
 ### Prepare hosts and clients
 
-Click on the **Options** button, In the **Keyboard** tab, click **Advanced**, and **Enable developer console**. 
+Click on the **Options** button, In the **Keyboard** tab, click **Advanced**, and **Enable developer console**.
 
 Test by clicking `~`, then rejoice with Quake flashbacks.
 
@@ -35,27 +35,39 @@ Test by clicking `~`, then rejoice with Quake flashbacks.
 
 Write down the IP (Option + Click on the Network icon in the status bar) of one of the Macs before starting.
 
-Click on the **+** sign next to the Servers icon.
+Click on the **\+** sign next to the Servers icon.
 
-Choose a map (notice the naming convention: **maptype_mapname**)
+Choose a map (notice the naming convention: **maptype_mapname**\)
 
 Fire up the development console again with `~`.
 
 Enter the following to make re-spawning faster:
 
-```ini
+```c
 mp_respawnwavetime 1
 mp_disable_respawn_times 1 
 ```
 
+To change maps:
+
+```c
+changelevel <MAPNAME>
+```
+
+And in order to get a list of maps:
+
+```c
+maps *
+```
+
+For a full list of commands, see [the TeamFortress wiki](https://wiki.teamfortress.com/wiki/List_of_useful_console_commands#mp_commands).
+
 ### Connecting to the server
 
-From the other macs, open then the console (`~`), then enter:
-`connect HOST_IP:27015` (Replace `HOST_IP` with the IP you wrote down before).
+From the other macs, open then the console (`~`), then enter: `connect HOST_IP:27015` (Replace `HOST_IP` with the IP you wrote down before).
 
 ### Play and enjoy!
 
 ### Notes:
 
-We used the host Mac to play, if you have LAG, you might want to make the host Mac in **Spectator** mode.
-If that doesn't help, you should probably fire you your own dedicated TF2 server: [Guide](https://wiki.teamfortress.com/wiki/Linux_dedicated_server).
+We used an older MBP with less memory (8GB) to host the server, it was a little bit laggy, and we changed the host to use a crappy resolution and low level graphics, then it all went smoothly. If you have LAG, you might want to make the host Mac in **Spectator** mode. If that doesn't help, you should probably fire you your own dedicated TF2 server: [Guide](https://wiki.teamfortress.com/wiki/Linux_dedicated_server).
