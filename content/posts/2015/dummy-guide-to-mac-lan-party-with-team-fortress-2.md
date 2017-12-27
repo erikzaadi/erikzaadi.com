@@ -71,3 +71,7 @@ From the other macs, open then the console (`~`), then enter: `connect HOST_IP:2
 ### Notes:
 
 We used an older MBP with less memory (8GB) to host the server, it was a little bit laggy, and we changed the host to use a crappy resolution and low level graphics, then it all went smoothly. If you have LAG, you might want to make the host Mac in **Spectator** mode. If that doesn't help, you should probably fire you your own dedicated TF2 server: [Guide](https://wiki.teamfortress.com/wiki/Linux_dedicated_server).
+
+**UPDATE: end of 2017** We finally another lan party, was awesome, here's an image:
+
+!["Lan party fun"](/images/LanPartyFun.gif)
