@@ -1,6 +1,5 @@
 ---
 date: '2010-09-08'
-layout: post
 slug: let%e2%80%99sopensourcetime
 status: publish
 title: Let’s open source time

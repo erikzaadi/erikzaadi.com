@@ -1,6 +1,5 @@
 ---
 date: '2009-05-06'
-layout: post
 slug: firstpost
 status: publish
 title: First post

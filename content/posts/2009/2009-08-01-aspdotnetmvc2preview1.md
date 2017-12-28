@@ -1,6 +1,5 @@
 ---
 date: '2009-08-01'
-layout: post
 slug: aspdotnetmvc2preview1
 status: publish
 title: ASP.NET MVC 2 Preview 1

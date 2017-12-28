@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "jQuery Compatible JSONP with Nginx"
 date: 2012-07-16
 comments: true

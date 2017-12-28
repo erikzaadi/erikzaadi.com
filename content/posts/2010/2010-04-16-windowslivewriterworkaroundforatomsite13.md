@@ -1,6 +1,5 @@
 ---
 date: '2010-04-16'
-layout: post
 slug: windowslivewriterworkaroundforatomsite13
 status: publish
 title: Windows Live Writer Workaround for AtomSite 1.3

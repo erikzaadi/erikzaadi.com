@@ -1,6 +1,5 @@
 ---
 date: '2011-02-08'
-layout: post
 slug: youknowyouareageekwhenyouhaveasiteforyourweddingandevenmorewhenthereisaneastereggatthesiteaswell
 status: publish
 title: You know you are a geek when you have a site for your wedding, and even more when there are easter eggs at the site as well.

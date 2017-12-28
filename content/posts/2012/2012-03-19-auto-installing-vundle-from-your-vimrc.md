@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "auto installing vundle from your vimrc"
 date: 2012-03-19
 comments: true

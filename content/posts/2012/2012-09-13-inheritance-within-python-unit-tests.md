@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Inheritance within Python Unit Tests"
 date: 2012-09-13
 comments: true

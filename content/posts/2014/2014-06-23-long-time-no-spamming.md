@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Long time no spamming"
 date: 2014-06-23
 comments: true

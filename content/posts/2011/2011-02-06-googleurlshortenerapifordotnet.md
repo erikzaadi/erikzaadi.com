@@ -1,6 +1,5 @@
 ---
 date: '2011-02-06'
-layout: post
 slug: googleurlshortenerapifordotnet
 status: publish
 title: Google Url Shortener Api for .net

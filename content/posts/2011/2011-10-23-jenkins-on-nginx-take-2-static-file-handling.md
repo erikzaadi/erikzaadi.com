@@ -1,6 +1,5 @@
 ---
 date: '2011-10-23'
-layout: post
 slug: jenkins-on-nginx-take-2-static-file-handling
 status: publish
 title: Jenkins on Nginx – Take 2 - Static file handling

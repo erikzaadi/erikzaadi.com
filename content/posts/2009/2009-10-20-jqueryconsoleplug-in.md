@@ -1,6 +1,5 @@
 ---
 date: '2009-10-20'
-layout: post
 slug: jqueryconsoleplug-in
 status: publish
 title: jQuery Console Plug-in

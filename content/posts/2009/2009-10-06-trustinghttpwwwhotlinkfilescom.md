@@ -1,6 +1,5 @@
 ---
 date: '2009-10-06'
-layout: post
 slug: trustinghttpwwwhotlinkfilescom
 status: publish
 title: Trusting http://www.hotlinkfiles.com/

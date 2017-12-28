@@ -1,6 +1,5 @@
 ---
 date: '2009-08-28'
-layout: post
 slug: connectingtomyverywellhiddenartisticside
 status: publish
 title: Connecting to my very well hidden artistic side

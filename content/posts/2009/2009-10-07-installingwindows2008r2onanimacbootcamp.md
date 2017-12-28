@@ -1,6 +1,5 @@
 ---
 date: '2009-10-07'
-layout: post
 slug: installingwindows2008r2onanimacbootcamp
 status: publish
 title: Installing Windows 2008 R2 on an iMac (Boot Camp)

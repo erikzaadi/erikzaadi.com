@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Solarized color scheme for Octopress"
 date: 2012-04-22
 comments: true

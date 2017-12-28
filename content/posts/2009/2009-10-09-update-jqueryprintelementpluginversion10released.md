@@ -1,6 +1,5 @@
 ---
 date: '2009-10-09'
-layout: post
 slug: update-jqueryprintelementpluginversion10released
 status: publish
 title: Update - jQuery Print Element Plugin version 1.0 Released

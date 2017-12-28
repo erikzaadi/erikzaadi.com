@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Mocking Python imports"
 date: 2012-07-03
 comments: true

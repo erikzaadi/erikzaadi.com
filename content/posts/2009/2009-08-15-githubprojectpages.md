@@ -1,6 +1,5 @@
 ---
 date: '2009-08-15'
-layout: post
 slug: githubprojectpages
 status: publish
 title: Github Project Pages

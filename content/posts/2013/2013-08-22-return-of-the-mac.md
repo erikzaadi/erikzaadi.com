@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Return of the Mac"
 date: 2013-08-22
 comments: true

@@ -1,6 +1,5 @@
 ---
 date: '2010-04-08'
-layout: post
 slug: hostautomaticupdatableairapplicationsongithub
 status: publish
 title: Host Automatic updatable Air applications on Github

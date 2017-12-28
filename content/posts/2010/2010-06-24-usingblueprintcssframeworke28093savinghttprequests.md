@@ -1,6 +1,5 @@
 ---
 date: '2010-06-24'
-layout: post
 slug: usingblueprintcssframework%e2%80%93savinghttprequests
 status: publish
 title: Using Blueprint CSS framework – saving http requests

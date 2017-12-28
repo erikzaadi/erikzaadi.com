@@ -1,6 +1,5 @@
 ---
 date: '2010-03-20'
-layout: post
 slug: jqapiairapplication
 status: publish
 title: jQAPI Air Application

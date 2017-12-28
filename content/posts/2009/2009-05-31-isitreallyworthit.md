@@ -1,6 +1,5 @@
 ---
 date: '2009-05-31'
-layout: post
 slug: isitreallyworthit
 status: publish
 title: Is it really worth it?

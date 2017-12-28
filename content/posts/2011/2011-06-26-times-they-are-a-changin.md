@@ -1,6 +1,5 @@
 ---
 date: '2011-06-26'
-layout: post
 slug: times-they-are-a-changin
 status: publish
 title: Times they are a changin

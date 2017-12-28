@@ -1,6 +1,5 @@
 ---
 date: '2011-10-02'
-layout: post
 slug: jenkins-on-nginx-fixing-artifacts-downloading-problem
 status: publish
 title: Jenkins on Nginx - Fixing artifacts downloading problem

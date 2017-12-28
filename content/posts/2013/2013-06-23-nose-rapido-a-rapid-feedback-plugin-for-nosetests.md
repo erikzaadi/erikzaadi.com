@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "nose-rapido - a rapid feedback plugin for nosetests"
 date: 2013-06-23
 comments: true

@@ -1,6 +1,5 @@
 ---
 date: '2010-01-09'
-layout: post
 slug: usingmvcusercontrolsfromanothercontroller
 status: publish
 title: Using Mvc user controls from another controller

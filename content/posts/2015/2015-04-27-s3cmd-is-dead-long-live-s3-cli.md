@@ -1,8 +1,7 @@
 ---
-layout: post
 title: "s3cmd is dead, long live s3-cli"
 slug: 's3cmd-is-dead-long-live-s3-cli'
-date: 2015-04-27
+date: "2015-04-27"
 comments: true
 categories: [s3, amazon, node, nodejs, octopress, s3cmd, s3-cli]
 ---
@@ -39,7 +38,6 @@ index fccdd5e..47f3e09 100755
  end
 ```
 
-And _Voila_! Deploy time reduced from 5 minutes to 17 seconds (UBER W000TZ!!1)
-
+And *Voila*! Deploy time reduced from 5 minutes to 17 seconds (UBER W000TZ!!1)
 
 Stay classy San Diego.

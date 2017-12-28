@@ -1,6 +1,5 @@
 ---
 date: '2009-12-06'
-layout: post
 slug: blogmigrationpart4connectingwindowslivewritertotheatomsiteblog
 status: publish
 title: Blog Migration – Part – 4 – Connecting Windows Live Writer to the AtomSite

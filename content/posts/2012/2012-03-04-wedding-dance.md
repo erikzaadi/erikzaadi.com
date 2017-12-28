@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "The Wedding Dance"
 date: 2012-03-03
 comments: true

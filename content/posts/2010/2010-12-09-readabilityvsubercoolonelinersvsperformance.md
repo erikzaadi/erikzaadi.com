@@ -1,6 +1,5 @@
 ---
 date: '2010-12-09'
-layout: post
 slug: readabilityvsubercoolonelinersvsperformance
 status: publish
 title: Readability VS Uber Cool One Liners VS Performance

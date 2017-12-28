@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Three Amigos One Tmux"
 date: 2012-12-10
 comments: true

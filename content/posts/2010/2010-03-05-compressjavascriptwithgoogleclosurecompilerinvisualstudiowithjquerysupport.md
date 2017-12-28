@@ -1,6 +1,5 @@
 ---
 date: '2010-03-05'
-layout: post
 slug: compressjavascriptwithgoogleclosurecompilerinvisualstudiowithjquerysupport
 status: publish
 title: Compress Javascript with Google Closure Compiler in Visual Studio (with jQuery support)

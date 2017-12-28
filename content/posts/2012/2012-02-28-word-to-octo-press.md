@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "mv {word,octo}press"
 date: 2012-02-28
 status: publish

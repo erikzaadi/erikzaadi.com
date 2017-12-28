@@ -1,6 +1,5 @@
 ---
 date: '2009-05-14'
-layout: post
 slug: newbloglayout
 status: publish
 title: New Blog Layout

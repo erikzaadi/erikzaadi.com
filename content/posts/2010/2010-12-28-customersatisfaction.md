@@ -1,6 +1,5 @@
 ---
 date: '2010-12-28'
-layout: post
 slug: customersatisfaction
 status: publish
 title: Customer Satisfaction

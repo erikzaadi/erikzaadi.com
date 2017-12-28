@@ -1,6 +1,5 @@
 ---
 date: '2011-07-11'
-layout: post
 slug: making-the-touchpad-work-with-two-finger-swipes-on-ubuntu-10-10-installed-on-a-lenovo-laptop
 status: publish
 title: Making the touchpad work with two finger swipes on ubuntu 10.10 installed on

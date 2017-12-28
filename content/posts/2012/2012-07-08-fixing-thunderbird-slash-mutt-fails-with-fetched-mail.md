@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Fixing Thunderbird crashes on load and Mutt fails with fetched mail"
 date: 2012-07-08
 comments: true

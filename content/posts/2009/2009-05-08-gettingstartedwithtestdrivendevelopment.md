@@ -1,6 +1,5 @@
 ---
 date: '2009-05-08'
-layout: post
 slug: gettingstartedwithtestdrivendevelopment
 status: publish
 title: Getting Started with Test Driven Development

@@ -1,6 +1,5 @@
 ---
 date: '2011-08-04'
-layout: post
 slug: the-small-things
 status: publish
 title: The small things

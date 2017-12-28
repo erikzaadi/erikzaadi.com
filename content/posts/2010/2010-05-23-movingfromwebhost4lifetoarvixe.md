@@ -1,6 +1,5 @@
 ---
 date: '2010-05-23'
-layout: post
 slug: movingfromwebhost4lifetoarvixe
 status: publish
 title: Moving from Webhost4life to Arvixe

@@ -1,6 +1,5 @@
 ---
 date: '2009-10-27'
-layout: post
 slug: googleanalyticsdotnet
 status: publish
 title: Google Analytics.NET

@@ -1,6 +1,5 @@
 ---
 date: '2010-07-04'
-layout: post
 slug: javajavaforanietdev
 status: publish
 title: Java Java for a .Niet dev

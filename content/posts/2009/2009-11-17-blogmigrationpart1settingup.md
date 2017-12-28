@@ -1,6 +1,5 @@
 ---
 date: '2009-11-17'
-layout: post
 slug: blogmigrationpart1settingup
 status: publish
 title: Blog Migration - Part 1 - Setting Up Domain and Hosting Server

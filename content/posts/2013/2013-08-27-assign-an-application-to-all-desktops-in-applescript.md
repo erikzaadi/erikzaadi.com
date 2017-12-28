@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Assign an Application to all desktops in Applescript"
 date: 2013-08-27
 comments: true

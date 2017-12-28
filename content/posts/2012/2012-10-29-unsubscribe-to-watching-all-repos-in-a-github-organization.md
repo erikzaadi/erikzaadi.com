@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Unsubscribing to watching all repos in a Github organization"
 date: 2012-10-29
 comments: true

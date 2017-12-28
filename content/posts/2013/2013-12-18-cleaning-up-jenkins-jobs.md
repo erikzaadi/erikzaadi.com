@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Cleaning up Jenkins jobs"
 date: 2013-12-18
 comments: true

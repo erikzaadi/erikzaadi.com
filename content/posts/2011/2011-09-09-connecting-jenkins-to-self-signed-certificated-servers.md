@@ -1,6 +1,5 @@
 ---
 date: '2011-09-09'
-layout: post
 slug: connecting-jenkins-to-self-signed-certificated-servers
 status: publish
 title: Connecting Jenkins to self signed certificated servers

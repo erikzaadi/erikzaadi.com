@@ -1,6 +1,5 @@
 ---
 date: '2009-08-21'
-layout: post
 slug: jquerylateloaderplugin
 status: publish
 title: jQuery Late Loader Plugin

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "handle proxy 404 in nginx"
 date: 2014-06-23
 comments: true

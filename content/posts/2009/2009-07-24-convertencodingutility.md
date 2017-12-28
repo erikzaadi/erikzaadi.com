@@ -1,6 +1,5 @@
 ---
 date: '2009-07-24'
-layout: post
 slug: convertencodingutility
 status: publish
 title: Convert Encoding Utility

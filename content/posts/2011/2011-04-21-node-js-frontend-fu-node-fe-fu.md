@@ -1,6 +1,5 @@
 ---
 date: '2011-04-21'
-layout: post
 slug: node-js-frontend-fu-node-fe-fu
 status: publish
 title: Node.js Frontend Fu (node-fe-fu)

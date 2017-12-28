@@ -1,6 +1,5 @@
 ---
 date: '2011-07-18'
-layout: post
 slug: automating-egged-bus-wifi-connection
 status: publish
 title: Automating Egged Bus Wifi Connection

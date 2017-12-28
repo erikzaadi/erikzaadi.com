@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Two bots one Slack"
 date: 2015-04-27
 comments: true

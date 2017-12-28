@@ -1,6 +1,5 @@
 ---
 date: '2009-12-22'
-layout: post
 slug: aspdotnetmvcexceptionhandlingwithjquery
 status: publish
 title: Asp.Net MVC Exception Handling with jQuery

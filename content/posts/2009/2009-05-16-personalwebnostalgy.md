@@ -1,6 +1,5 @@
 ---
 date: '2009-05-16'
-layout: post
 slug: personalwebnostalgy
 status: publish
 title: Personal Web Nostalgy

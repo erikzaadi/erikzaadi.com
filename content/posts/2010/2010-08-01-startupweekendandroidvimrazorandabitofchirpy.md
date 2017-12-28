@@ -1,6 +1,5 @@
 ---
 date: '2010-08-01'
-layout: post
 slug: startupweekendandroidvimrazorandabitofchirpy
 status: publish
 title: Startup Weekend, Android, Vim, Razor and a bit of Chirpy

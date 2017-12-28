@@ -1,6 +1,5 @@
 ---
 date: '2010-11-28'
-layout: post
 slug: dynamic-pitfalls
 status: publish
 title: Dynamic Pitfalls

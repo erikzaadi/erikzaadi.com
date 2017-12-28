@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Auto Auto Reloading iPython modules"
 date: 2013-03-14
 comments: true

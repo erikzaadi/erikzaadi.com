@@ -1,6 +1,5 @@
 ---
 date: '2010-05-16'
-layout: post
 slug: windowslivewriterworkaroundforatomsiteplugin14
 status: publish
 title: Windows Live Writer Workaround For AtomSite Plugin 1.4

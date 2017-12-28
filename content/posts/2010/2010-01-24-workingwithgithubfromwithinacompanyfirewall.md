@@ -1,6 +1,5 @@
 ---
 date: '2010-01-24'
-layout: post
 slug: workingwithgithubfromwithinacompanyfirewall
 status: publish
 title: Working with Github from within a company firewall

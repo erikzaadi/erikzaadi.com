@@ -1,6 +1,5 @@
 ---
 date: '2009-12-26'
-layout: post
 slug: thebeautyofthedesert
 status: publish
 title: The beauty of the desert

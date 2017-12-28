@@ -1,6 +1,5 @@
 ---
 date: '2010-02-07'
-layout: post
 slug: jquery141vsdocvisualstudio2008intellisense
 status: publish
 title: jQuery 1.4.1 vsdoc (Visual Studio 2008 IntelliSense)

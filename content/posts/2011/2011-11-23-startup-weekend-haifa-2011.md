@@ -1,6 +1,5 @@
 ---
 date: '2011-11-23'
-layout: post
 slug: startup-weekend-haifa-2011
 status: publish
 title: Startup weekend Haifa (2011)

@@ -1,6 +1,5 @@
 ---
 date: '2010-06-20'
-layout: post
 slug: creatingathemeforatomsiteaquickwalkthrough
 status: publish
 title: Creating a theme for AtomSite, a quick walkthrough

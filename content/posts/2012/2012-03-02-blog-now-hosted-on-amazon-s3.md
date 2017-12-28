@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Blog now hosted on Amazon S3"
 date: 2012-03-02
 comments: true

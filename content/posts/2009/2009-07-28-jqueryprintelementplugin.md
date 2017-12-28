@@ -1,6 +1,5 @@
 ---
 date: '2009-07-28'
-layout: post
 slug: jqueryprintelementplugin
 status: publish
 title: jQuery Print Element Plugin

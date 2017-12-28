@@ -1,6 +1,5 @@
 ---
 date: '2011-04-20'
-layout: post
 slug: node-js-much-more-then-a-webserver
 status: publish
 title: Node.js - Much more than a webserver

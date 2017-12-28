@@ -1,6 +1,5 @@
 ---
 date: '2009-11-22'
-layout: post
 slug: blogmigration-part2-temporarypages
 status: publish
 title: Blog Migration - Part 2 - Temporary Pages

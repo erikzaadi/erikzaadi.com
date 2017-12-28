@@ -1,6 +1,5 @@
 ---
 date: '2011-03-02'
-layout: post
 slug: installscripttorunaspdotnetmvc3withrazoronnginxataopensuseserver
 status: publish
 title: Install script to run asp.net mvc 3 with Razor on nginx at a OpenSuse server

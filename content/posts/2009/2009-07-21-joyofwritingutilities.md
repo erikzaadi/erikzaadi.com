@@ -1,6 +1,5 @@
 ---
 date: '2009-07-21'
-layout: post
 slug: joyofwritingutilities
 status: publish
 title: Joy of writing utilities

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Installing Bare Boned Ubuntu using the Mini ISO"
 date: 2012-11-11
 comments: true

@@ -1,6 +1,5 @@
 ---
 date: '2010-05-16'
-layout: post
 slug: atomsitethemessite
 status: publish
 title: AtomSite Themes site

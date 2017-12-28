@@ -1,6 +1,5 @@
 ---
 date: '2009-11-25'
-layout: post
 slug: blogmigration-part3-exportingfrombloggertoatomsite
 status: publish
 title: Blog Migration - Part 3 - Exporting Posts From Blogger To Atomsite

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Fast remote editing with Vim"
 date: 2013-03-07
 comments: true
