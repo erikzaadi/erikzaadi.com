@@ -17,11 +17,11 @@ params:
   description: "The tales of a team leader with passion for dad jokes"
   copyright: "© 2017 erikzaadi.com"
   disqusShortname: erikzaadi
-  aboutAuthor: "Geek Dad"
+  aboutAuthor: "WebOps Dad"
   twitter : "erikzaadi"
   enableRSS: true
   name : "Erik Zaadi"
-  bio : "WebOps Dad FTW"
+  bio : "Loves playing with code, pixels, people, builds and puns"
   googleAnalytics: "UA-8728177-3"
   title404 : "Oh Noez!!"
   subtitle404 : "Well, we got ourselves a 404. Imagine that."
