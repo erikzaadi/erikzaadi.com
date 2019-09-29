@@ -1,6 +1,6 @@
 ---
 title: "A simple Git tip to improve your CI"
-date: 2019-09-25T14:12:38+03:00
+date: 2019-09-29T11:12:38+03:00
 draft: false
 description: "The short and simple tale of how a commit SHA-1 can save you time and trouble"
 tags: ["CI", "CD", "continuous integration", "continuous deployment", "git"]
@@ -74,3 +74,97 @@ Thus, if your CI build takes X seconds, you can shave off the same X seconds fro
 ## To recap
 
 By using Git Rebase, you can make your CI pipeline leaner, but simply not repeating yourself when not needed.
+
+## Here's an example
+
+The example below is using [Travis CI](https://travis-ci.com), but it can just as easy be any other CI platform.
+
+### Before
+
+```yaml
+sudo: false
+dist: trusty
+group: travis_latest
+language: node_js
+cache:
+  directories:
+  - node_modules
+before_script:
+- npm install --no-optional
+script:
+- npm test
+before_cache:
+- npm prune --production --no-optional
+before_deploy:
+- echo "Whatever preparations you do here such as tar balling etc"
+deploy:
+- provider: yourprovider
+```
+
+This will run for whatever push you are doing, including pushing the same commit that was already tested to master.
+
+### After
+
+```yaml
+sudo: false
+dist: trusty
+group: travis_latest
+language: node_js
+cache:
+  directories:
+  - node_modules
+stages:
+  - name: Build, publish and test
+    if: (tag IS blank) AND NOT (branch = master)
+  - name: Test
+    if: NOT (tag IS blank) OR (branch = master)
+  - name: Build and publish
+    if: NOT (tag IS blank) OR (branch = master)
+jobs:
+  include:
+  - &build-and-publish
+    stage: Build and publish
+    name: Build and publish
+    if: type = push
+    sudo: false
+    script: echo "Whatever preparations you do here such as tar balling etc"
+    install: true
+    deploy:
+    - provider: yourprovider
+    env:
+    - CACHE_NAME=prod
+  - &test
+    stage: Test
+    name: Run tests
+    sudo: false
+    install: true
+    before_script:
+    - npm install --no-optional
+    - npm prune
+    script:
+    - npm test
+    env:
+    - CACHE_NAME=test
+  - <<: *test
+    stage: Build, publish and test
+  - <<: *build-and-publish
+    stage: Build, publish and test
+```
+
+This ensures that tests will only run on feature branches and not on `master` or tags.
+
+In addition, the cache is separated between developer dependencies and production dependencies to speed things up a bit more.
+
+## Gimme them numbers
+
+NodeJS projects: Removed ~3 minutes from the master build.
+
+Scala projects: Removed around ~14 minutes (!).
+
+For simplicity, I did not include the entire scripts, but several other changes besides just not running tests were made in the same mindset:
+
+* Don't rebuild docker images, only add tag
+* Don't recreate artifacts when not needed
+
+
+#### Cheers.
