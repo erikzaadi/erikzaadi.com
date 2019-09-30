@@ -28,7 +28,7 @@ Enforce your company style guide and more.
 
 Is this change needed?
 
-Is it to big, risky?
+Is it too big, risky?
 
 #### OK, the why is clear
 
@@ -75,8 +75,9 @@ Meet your new best friend: `git push --force-with-lease`[¹](https://git-scm.com
 
 #### Commit message format is incredibly important
 
-* You'll be the one to look at in half a year to understand what in the name of Odin's beard made you write that code
-* Each commit should be a single logical change, other dangling _FIX_ or _TYPO_ commits should be squashed
+You'll be the one to look at in half a year to understand what in the name of Odin's beard made you write that code.
+
+Each commit should be a single logical change, other dangling _FIX_ or _TYPO_ commits should be squashed.
 
 ### Git commit format
 
