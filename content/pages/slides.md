@@ -9,13 +9,13 @@ comments: false
 
 ### Scaling Humans: BigPanda's Fabulous ChatOps Adventure
 
-<script async class="speakerdeck-embed" data-id="f8064d29639e4fa3a5e08be0472aa340" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
+{{< speakerdeck f8064d29639e4fa3a5e08be0472aa340 >}}
 
 {{< youtube 8IB9J0GP-c  >}}
 
 ### Discover How Surprisingly Similar it is to do Kung Fu and Devops 
 
-<script async class="speakerdeck-embed" data-id="f7a944707ce24744b516b19e6b011392" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
+{{< speakerdeck f7a944707ce24744b516b19e6b011392 >}}
 
 {{< youtube yQN36wM8M-4 >}}
 
@@ -47,6 +47,6 @@ comments: false
 
 ### Pull Request Etiquette 
 
-[Slides](https://slides.erikzaadi.com/pr-ignite)
+{{< slides pr-ignite >}}
 
 {{< youtube cgNEg9rqV0U >}}
