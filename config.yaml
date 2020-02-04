@@ -13,6 +13,7 @@ permalinks:
     pages: /:slug/
 metadataformat: "yaml"
 theme: "mine"
+enableInlineShortcodes: true
 params:
   description: "The tales of a team leader with passion for dad jokes"
   copyright: "© 2017 erikzaadi.com"

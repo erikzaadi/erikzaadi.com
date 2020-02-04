@@ -7,4 +7,8 @@
 	{{ if ne $url "about/" }}
 		<a href='{{ .Site.BaseURL }}about/'>{{ with .Site.Params.about }}{{ . }}{{ else }}About{{ end }}</a>
 	{{ end }}
+	{{ if ne $url "slides/" }}
+		<a href='{{ .Site.BaseURL }}slides/'>{{ with .Site.Params.slides }}{{ . }}{{ else }}Slides{{ end }}</a>
+	{{ end }}
+
 </nav>
