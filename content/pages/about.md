@@ -5,14 +5,14 @@ title: whoami
 comments: false
 ---
 
-R&D Team Leader at [BigPanda](https://bigpanda.io).
+Developer at [Salto](https://salto.io)
 
-Enjoy everything from shiny web apps, beatiful APIs to seamless CI integrations.
+Previously R&D Team Leader at [BigPanda](https://bigpanda.io).
 
-Love tinkering with [Raspberry Pi](https://raspberrypi.org) and [Spark](http://www.particle.io).
+Enjoy everything from shiny web apps, beautiful APIs to seamless CI integrations.
 
 Dad and foremost *UBERGEEK*.
 
-Passionate about [opensource](http://resume.github.com/?erikzaadi), always striving to learn something new.
+Passionate about [Open Source](http://resume.github.com/?erikzaadi), always striving to learn something new.
 
-Catch me at [Github](https://github.com/erikzaadi) or [LinkedIn](https://linkedin.com/in/erikzaadi).
+Catch me at [Twitter](https://twitter.com/erikzaadi), [Github](https://github.com/erikzaadi) or [LinkedIn](https://linkedin.com/in/erikzaadi).

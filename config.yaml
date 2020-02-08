@@ -15,7 +15,7 @@ metadataformat: "yaml"
 theme: "mine"
 enableInlineShortcodes: true
 params:
-  description: "The tales of a team leader with passion for dad jokes"
+  description: "The tales of a developer with passion for dad jokes"
   copyright: "© 2017 erikzaadi.com"
   disqusShortname: erikzaadi
   aboutAuthor: "WebOps Dad"
