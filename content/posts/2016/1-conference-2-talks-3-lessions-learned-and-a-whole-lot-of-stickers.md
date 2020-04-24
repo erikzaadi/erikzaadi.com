@@ -176,11 +176,11 @@ BigPanda's booth was a big success as well, our shiny new stickers were DA THING
 
 ### Kung Fu: 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/yQN36wM8M-4" frameborder="0" allowfullscreen></iframe>
+{{< youtube yQN36wM8M-4 >}}
 
 ### ChatOps: 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/r8IB9J0GP-c" frameborder="0" allowfullscreen></iframe>
+{{< youtube r8IB9J0GP-c >}}
 
 ## Presentations
 
