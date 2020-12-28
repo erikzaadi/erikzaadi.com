@@ -50,3 +50,11 @@ comments: false
 {{< slides pr-ignite >}}
 
 {{< youtube cgNEg9rqV0U >}}
+
+## Community Summit TLV 2020
+
+### Monitoring People An Engineering Approach to Human KPIs
+
+{{< youtube Ua6g_qmb2Us >}}
+
+{{< slides monitoring-people-kpi >}}

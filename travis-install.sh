@@ -9,7 +9,7 @@ if [[ -d ${BIN_DIR} &&  "${TRAVIS_COMMIT_MESSAGE}" == *"clean"* ]]; then
     rm -rf ${BIN_DIR}
 fi
 
-HUGO_VERSION=0.63.2
+HUGO_VERSION=0.75.0
 MINIFY_VERSION=2.3.4
 
 if [[ ! -d ${BIN_DIR} ]]; then
