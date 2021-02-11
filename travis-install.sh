@@ -31,4 +31,5 @@ function install_from_github_release() {
 install_from_github_release gohugoio/hugo hugo ${HUGO_VERSION} Linux-64bit
 install_from_github_release tdewolff/minify minify ${MINIFY_VERSION} linux_amd64
 
-pip install -U awscli
+sudo pip install -U pip
+sudo pip install -U awscli
