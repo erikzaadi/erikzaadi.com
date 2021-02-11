@@ -2,9 +2,12 @@
 BLOG_URL="https://erikzaadi.com"
 MESSAGE="Deploy of blog succeeded"
 
+
 if [[ "${TRAVIS_BRANCH}" != "master" ]]; then
     BLOG_URL="http://blogpreview.erikzaadi.com"
     MESSAGE="Deploy of preview blog succeeded: '${TRAVIS_BRANCH}'"
+else
+    aws cloudfront create-invalidation --distribution-id ${AWS_CLOUDFRONT_DISTRIBUTION_ID} --paths "/*"
 fi
 curl -s \
   --form-string "token=${PUSHOVER_TOKEN}" \
