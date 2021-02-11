@@ -33,3 +33,6 @@ install_from_github_release tdewolff/minify minify ${MINIFY_VERSION} linux_amd64
 
 pip install -U pip
 pip install -U awscli
+aws configure set aws_access_key_id ${AWS_ACCESS_ID}
+aws configure set aws_secret_access_key ${AWS_SECRET_ID}
+aws configure set preview.cloudfront true
