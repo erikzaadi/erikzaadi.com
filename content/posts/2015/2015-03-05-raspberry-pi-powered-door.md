@@ -56,6 +56,6 @@ In HipChat, we have a bot powered by [Hubot](https://hubot.github.com/) which we
 
 ![HipChat](/images/panda-pi/hipchat.png "HipChat")
 
-The code is of course open source, up at [https://github.com/bigpandaio/bellboy](https://github.com/bigpandaio/bellboy).
+The code is of course open source, up at [https://github.com/erikzaadi/bellboy](https://github.com/erikzaadi/bellboy).
 
 Enjoy!
