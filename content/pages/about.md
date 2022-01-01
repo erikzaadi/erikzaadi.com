@@ -5,9 +5,14 @@ title: whoami
 comments: false
 ---
 
-Developer at [Salto](https://salto.io)
+{{< centerimage "/images/avatar-256.png" >}} 
 
-Previously R&D Team Leader at [BigPanda](https://bigpanda.io).
+> Hello Hungry, I'm dad
+
+
+Love playing with code, pixels, people, builds and puns
+
+Dad Pun Alumni at [Salto](https://salto.io)
 
 Enjoy everything from shiny web apps, beautiful APIs to seamless CI integrations.
 
@@ -15,4 +20,3 @@ Dad and foremost *UBERGEEK*.
 
 Passionate about [Open Source](http://resume.github.com/?erikzaadi), always striving to learn something new.
 
-Catch me at [Twitter](https://twitter.com/erikzaadi), [Github](https://github.com/erikzaadi) or [LinkedIn](https://linkedin.com/in/erikzaadi).

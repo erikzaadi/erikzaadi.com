@@ -2,6 +2,7 @@
 languageCode: "en-us"
 baseurl: "//erikzaadi.com/"
 title: "Erik Zaadi"
+Title: "Erik Zaadi"
 author: "Erik Zaadi"
 layoutdir: "layouts"
 contentdir: "content"
@@ -12,10 +13,13 @@ permalinks:
     posts: /:year/:month/:day/:slug/
     pages: /:slug/
 metadataformat: "yaml"
-theme: "mine"
+copyright: "© erikzaadi.com"
+theme: "gruvbox"
 enableInlineShortcodes: true
+disqusShortname: erikzaadi
 params:
   description: "The tales of a developer with passion for dad jokes"
+  title: "Erik Zaadi"
   copyright: "© 2017 erikzaadi.com"
   disqusShortname: erikzaadi
   aboutAuthor: "WebOps Dad"
@@ -28,3 +32,56 @@ params:
   subtitle404 : "Well, we got ourselves a 404. Imagine that."
   readMore: "MOAR™ Posts"
   solarizedTheme: "dark"
+  disqusAutoLoad: false
+  disqusAutoLoadCount: false
+  titlePrefix: ""
+  titleSuffix: " | erikzaadi.com"
+  menuItemPrefix: "~/"
+  dateFormat: "2006-01-02"
+  social:
+    -
+      name: "Github"
+      icon: "github"
+      url: "https://github.com/erikzaadi"
+    -
+      name: "Twitter"
+      icon: "twitter"
+      url: "https://twitter.com/erikzaadi"
+    -
+      name: "LinkedIn"
+      icon: "linkedin"
+      url: "https://linkedin.com/in/erikzaadi"
+
+
+
+taxonomies:
+  tag: "tags"
+
+menu:
+  main:
+    -
+      name: "Home"
+      url: "/"
+      weight: 1
+    -
+      name: "About"
+      url: "/about"
+      weight: 2
+    -
+      name: "Slides and Public Talks"
+      url: "/slides"
+      weight: 2
+
+# Syntax Highlighting
+pygmentsUseClasses: true
+pygmentsCodefences: true
+markup:
+  highlight:
+    codeFences: true
+    guessSyntax: true
+    hl_Lines: ""
+    lineNoStart: 1
+    lineNos: true
+    lineNumbersInTable: true
+    tabWidth: 4
+    noClasses: false
