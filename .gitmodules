@@ -1,3 +1,5 @@
 [submodule "themes/gruvbox"]
 	path = themes/gruvbox
 	url = https://github.com/MayADevBe/Hugo-Gruvbox-Theme.git
+[submodule "./themes/gruvbox"]
+	url = https://github.com/erikzaadi/Hugo-Gruvbox-Theme
