@@ -3,9 +3,9 @@ BLOG_URL="https://erikzaadi.com"
 MESSAGE="Deploy of blog succeeded"
 
 
-if [[ "${TRAVIS_BRANCH}" != "master" ]]; then
+if [[ "${GITHUB_REF_NAME}" != "master" ]]; then
     BLOG_URL="http://blogpreview.erikzaadi.com"
-    MESSAGE="Deploy of preview blog succeeded: '${TRAVIS_BRANCH}'"
+    MESSAGE="Deploy of preview blog succeeded: '${GITHUB_REF_NAME}'"
 else
     aws cloudfront create-invalidation --distribution-id ${AWS_CLOUDFRONT_DISTRIBUTION_ID} --paths "/*"
 fi

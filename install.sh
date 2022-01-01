@@ -5,7 +5,7 @@ set -e
 SCRIPT_BASE="$( cd -P "$( dirname "$0" )" && pwd )"
 BIN_DIR="${SCRIPT_BASE}/bin"
 
-if [[ -d ${BIN_DIR} &&  "${TRAVIS_COMMIT_MESSAGE}" == *"clean"* ]]; then
+if [[ -d ${BIN_DIR} &&  "${COMMIT_MESSAGE}" == *"clean"* ]]; then
     rm -rf ${BIN_DIR}
 fi
 
@@ -33,6 +33,4 @@ install_from_github_release tdewolff/minify minify ${MINIFY_VERSION} linux_amd64
 
 pip install -U pip
 pip install -U awscli
-aws configure set aws_access_key_id ${AWS_ACCESS_ID}
-aws configure set aws_secret_access_key ${AWS_SECRET_ID}
 aws configure set preview.cloudfront true

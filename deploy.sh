@@ -1,6 +1,6 @@
 #!/bin/bash
-if [[ -d ./public ]]; then
-    rm -r ./public
+TARGET_BUCKET=erikzaadi.com
+if [[ "${GITHUB_REF_NAME}" != "master" ]]; then
+    TARGET_BUCKET="blogpreview.erikzaadi.com"
 fi
-hugo
-s3-cli sync --delete-removed ./public s3://erikzaadi.com/
+aws s3 sync --delete --follow-symlinks --acl public-read ./public s3://${TARGET_BUCKET}/

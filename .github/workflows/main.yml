@@ -1,0 +1,49 @@
+name: CI FTW
+
+on:
+  push:
+    branches: [ master, preview ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          submodules: recursive
+
+      - name: Configure AWS Credentials
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ID }}
+          aws-region: us-east-1
+
+      - name: Install
+        run: ./install.sh
+        env:
+          COMMIT_MESSAGE: ${{ github.event.head_commit.message }}
+
+      - name: Compile
+        run: ./ci.sh
+        env:
+          COMMIT_MESSAGE: ${{ github.event.head_commit.message }}
+
+      # - ducks up mime type?
+      # - name: Minify
+      #   run: ./minify.sh
+
+      - name: Deploy
+        run: ./deploy.sh
+
+  notify_success:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: notify
+        env:
+          PUSHOVER_TOKEN: ${{ secrets.PUSHOVER_TOKEN }}
+          PUSHOVER_USER: ${{ secrets.PUSHOVER_USER }}
+
+        run: ./notify.sh
