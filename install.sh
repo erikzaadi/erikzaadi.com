@@ -11,6 +11,7 @@ fi
 
 HUGO_VERSION=0.91.2
 MINIFY_VERSION=2.3.4
+JQ_VERSION=1.6
 
 if [[ ! -d ${BIN_DIR} ]]; then
     mkdir ${BIN_DIR}
@@ -30,6 +31,12 @@ function install_from_github_release() {
 
 install_from_github_release gohugoio/hugo hugo ${HUGO_VERSION} Linux-64bit
 install_from_github_release tdewolff/minify minify ${MINIFY_VERSION} linux_amd64
+
+# JQ gotta be special
+cd ${BIN_DIR}
+curl -s -L https://github.com/stedolan/jq/releases/download/jq-v${JQ_VERSION}/jq-linux64 --output ./jq
+chmod a+x ./jq
+cd ${SCRIPT_BASE}
 
 pip install -U pip
 pip install -U awscli
