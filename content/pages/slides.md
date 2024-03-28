@@ -5,6 +5,18 @@ title: Slides and Public Talks
 comments: false
 ---
 
+## Reversim Summit 2024
+
+### DRY-ing up your CI/CD with Git Rebase
+
+(Hebrew)
+
+{{< youtube tanetBVMefc >}}
+
+[Gist](https://gist.github.com/erikzaadi/81ed1b1f08b1ad44e583c6d8be66071c) linked at the end of the video.
+
+---
+
 ## Community Summit TLV 2020
 
 ### Monitoring People An Engineering Approach to Human KPIs
