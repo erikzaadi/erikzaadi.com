@@ -69,6 +69,27 @@ So, going forward, I'm creating a simple 4 STEPS TO SUCCESS LADDER for on-boardi
 
 4. Basic [NeoVim config](https://github.com/erikzaadi/dotFiles/blob/master/nvim/beginner.lua) which allows simple code navigation and completion
 
+```sh
+# bootstrap
+mkdir -p ~/.config/nvim
+curl -s \
+    https://github.com/erikzaadi/dotFiles/raw/refs/heads/master/nvim/beginner.lua \
+    > ~/.config/nvim/init.lua
+# Dependencies
+brew install hashicorp/tap/terraform-ls neovim rg tflint fnm golang
+if [[ ! $(which npm )]]; then
+    fnm install 22
+fi
+npm i -g sql-language-server yaml-language-server \
+    vscode-langservers-extracted dockerfile-language-server-nodejs \
+    bash-language-server typescript
+pip install neovim ruff
+go install golang.org/x/tools/gopls@latest
+# Pre-install all packages
+nvim --headless "+Lazy! sync" +qa
+nvim --headless -c 'UpdateRemotePlugins | TSUpdateSync | qa'
+```
+
 ## Try it out!
 
 ![](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExYWZrc3p6YnBpZTFxam50emc4ZTV1NWloYTlpOW1oOGl0N2gyNXFwaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/IL4iTvQH0MjS/giphy.gif)
