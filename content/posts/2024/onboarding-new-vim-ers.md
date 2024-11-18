@@ -19,7 +19,7 @@ Being one of the cool kids with vim, I'm often asked how people can get started 
 
 ![](https://preview.redd.it/seriously-though-how-do-i-exit-vim-v0-mx7dxqljnnl81.png?auto=webp&s=03f895ee50952918687dfdfea03c0bc3af097754)
 
-## A now hope arises
+## A new hope arises
 
 Recently, I had a chad at work ask me to get him started with vim!
 
