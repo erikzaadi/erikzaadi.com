@@ -5,6 +5,14 @@ title: Slides and Public Talks
 comments: false
 ---
 
+## DevOpsDays TLV 2024
+
+### Managing tech debt like a mortgage
+
+{{< youtube T-OY5cZueQU >}}
+
+---
+
 ## Reversim Summit 2024
 
 ### DRY-ing up your CI/CD with Git Rebase
