@@ -1,7 +1,8 @@
 ---
 slug: about
-date: 2015-10-25T22:06:43+02:00
+date: 2025-01-03T22:06:43+02:00
 title: whoami
+tags: [whoami, about, erikzaadi, introduction, dad, puns, dadpun, ci]
 comments: false
 ---
 
@@ -12,7 +13,7 @@ comments: false
 
 Love playing with code, pixels, people, builds and puns
 
-Dad Pun Alumni at [Salto](https://salto.io)
+Coder, Manager and Dad Pun Alumni at [Port](https://getport.io)
 
 Enjoy everything from shiny web apps, beautiful APIs to seamless CI integrations.
 
