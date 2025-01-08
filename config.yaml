@@ -18,7 +18,7 @@ theme: "gruvbox"
 enableInlineShortcodes: true
 disqusShortname: erikzaadi
 params:
-  description: "The tales of a developer with passion for dad jokes"
+  description: "The tales of a coding manager addicted to dad jokes"
   title: "Erik Zaadi"
   copyright: "© 2017 erikzaadi.com"
   disqusShortname: erikzaadi
@@ -85,3 +85,6 @@ markup:
     lineNumbersInTable: true
     tabWidth: 4
     noClasses: false
+  goldmark:
+    renderer:
+      unsafe: true
