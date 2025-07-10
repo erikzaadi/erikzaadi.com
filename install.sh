@@ -9,7 +9,7 @@ if [[ -d ${BIN_DIR} &&  "${COMMIT_MESSAGE}" == *"clean"* ]]; then
     rm -rf ${BIN_DIR}
 fi
 
-HUGO_VERSION=0.140.2
+HUGO_VERSION=0.148.0
 MINIFY_VERSION=2.3.4
 JQ_VERSION=1.6
 
