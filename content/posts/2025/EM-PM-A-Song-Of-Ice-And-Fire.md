@@ -1,7 +1,6 @@
 ---
 title: "EM <> PM: A Song of Ice and Fire"
 date: 2025-07-26T21:32:44+03:00
-draft: true
 tags: [
   "engineering management",
   "product management",
