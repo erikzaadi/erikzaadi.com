@@ -21,3 +21,5 @@ Dad and foremost *UBERGEEK*.
 
 Passionate about [Open Source](http://resume.github.com/?erikzaadi), always striving to learn something new.
 
+Want the long version of how I mix teamwork, tech, and terrible puns?  
+I wrote a [Manager README](https://github.com/erikzaadi/manager-readme) — basically an instruction manual for working with me.
