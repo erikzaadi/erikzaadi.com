@@ -2,7 +2,6 @@
 title: "ShelteryPie: A Missile Alert Led Lights"
 sluig: "sheltery-pie-missile-alert-led-lights"
 date: 2026-03-08T14:58:41+02:00
-draft: true
 description: >
   How I wired up a Raspberry Pi and some LEDs to stop my family from doom-scrolling during missile alerts.
   No app required. Just a light.
