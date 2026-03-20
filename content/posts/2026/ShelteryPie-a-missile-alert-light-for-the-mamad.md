@@ -7,7 +7,7 @@ description: >
   No app required. Just a light.
 tags: ["raspberry-pi", "hardware", "iot", "side-project", "pikud-haoref", "israel"]
 image: "/images/pikud/pikud-5.jpg"
-toc: true
+toc: false
 ---
 
 ### TL;DR
