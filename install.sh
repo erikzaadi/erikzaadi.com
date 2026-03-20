@@ -5,39 +5,32 @@ set -e
 SCRIPT_BASE="$( cd -P "$( dirname "$0" )" && pwd )"
 BIN_DIR="${SCRIPT_BASE}/bin"
 
-if [[ -d ${BIN_DIR} &&  "${COMMIT_MESSAGE}" == *"clean"* ]]; then
+if [[ -d ${BIN_DIR} && "${COMMIT_MESSAGE}" == *"clean"* ]]; then
     rm -rf ${BIN_DIR}
 fi
 
-HUGO_VERSION=0.148.0
-MINIFY_VERSION=2.3.4
-JQ_VERSION=1.6
+HUGO_VERSION=0.158.0
+MINIFY_VERSION=2.24.10
+JQ_VERSION=1.8.1
 
 if [[ ! -d ${BIN_DIR} ]]; then
     mkdir ${BIN_DIR}
 fi
 
-function install_from_github_release() {
-    REPO=$1
-    EXECUTABLE=$2
-    VERSION=$3
-    TAR_SUFFIX=$4
-    cd ${BIN_DIR}
-    if [[ ! -e ./${EXECUTABLE} ]]; then
-      curl -s -L https://github.com/${REPO}/releases/download/v${VERSION}/${EXECUTABLE}_${VERSION}_${TAR_SUFFIX}.tar.gz | tar xvzf -
-    fi
-    cd ${SCRIPT_BASE}
-}
-
-install_from_github_release gohugoio/hugo hugo ${HUGO_VERSION} Linux-64bit
-install_from_github_release tdewolff/minify minify ${MINIFY_VERSION} linux_amd64
-
-# JQ gotta be special
 cd ${BIN_DIR}
-curl -s -L https://github.com/stedolan/jq/releases/download/jq-v${JQ_VERSION}/jq-linux64 --output ./jq
-chmod a+x ./jq
+
+if [[ ! -e ./hugo ]]; then
+    curl -s -L https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_withdeploy_${HUGO_VERSION}_Linux-64bit.tar.gz | tar xvzf -
+fi
+
+if [[ ! -e ./minify ]]; then
+    curl -s -L https://github.com/tdewolff/minify/releases/download/v${MINIFY_VERSION}/minify_linux_amd64.tar.gz | tar xvzf -
+fi
+
+if [[ ! -e ./jq ]]; then
+    curl -s -L https://github.com/jqlang/jq/releases/download/jq-${JQ_VERSION}/jq-linux-amd64 --output ./jq
+    chmod a+x ./jq
+fi
+
 cd ${SCRIPT_BASE}
 
-pip install -U pip
-pip install -U awscli
-aws configure set preview.cloudfront true

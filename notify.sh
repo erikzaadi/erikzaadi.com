@@ -10,7 +10,7 @@ else
     aws cloudfront create-invalidation --distribution-id ${AWS_CLOUDFRONT_DISTRIBUTION_ID} --paths "/*" > invalidation.json
     INVALIDATION_ID=$(cat ./invalidation.json | jq '.Invalidation.Id' -r)
     echo "Waiting for invalidation ${INVALIDATION_ID}"
-    aws cloudfront wait invalidation-completed --distribution-id ${AWS_CLOUDFRONT_DISTRIBUTION_ID}} --id ${INVALIDATION_ID}
+    aws cloudfront wait invalidation-completed --distribution-id ${AWS_CLOUDFRONT_DISTRIBUTION_ID} --id ${INVALIDATION_ID}
 fi
 curl -s \
   --form-string "token=${PUSHOVER_TOKEN}" \
