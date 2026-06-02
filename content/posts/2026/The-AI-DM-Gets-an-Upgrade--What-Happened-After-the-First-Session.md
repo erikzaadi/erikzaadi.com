@@ -3,7 +3,6 @@ title: "The AI DM Gets an Upgrade: What Happened After the First Session"
 date: 2026-06-01T10:00:00+03:00
 tags: ["dnd", "ai", "openai", "claude", "codex", "nodejs", "react", "family", "gaming", "open-source"]
 description: "A lot happened to dnd-fam-ftw since the first post: car mode, terminal mode, tiered models, agentic narration, and a workflow where Codex checks the AI facts and Claude writes the code."
-draft: true
 toc: false
 image: /images/dnd-again/dnd-fam-again-openai.png
 ---
