@@ -5,6 +5,14 @@ title: Slides and Public Talks
 comments: false
 ---
 
+## DevOpsDays Lima 2026
+
+### The Agentic SDLC Platform - Hold That Token Agent
+
+{{< googleslides "https://docs.google.com/presentation/d/e/2PACX-1vQeToAhbHKIETo86Y6jTq6sFukdBaH8cOFFitnfsL7K-r68TAxa9zzfakawBAeR4hHKxsykRic4dWEE/pubembed?start=false&loop=false&delayms=15000" >}}
+
+---
+
 ## DevOpsDays TLV 2024
 
 ### Managing tech debt like a mortgage
@@ -37,7 +45,7 @@ comments: false
 
 ## DevSecOps 2020
 
-### Pull Request Etiquette 
+### Pull Request Etiquette
 
 {{< youtube N6nnkHtG7RU >}}
 
@@ -51,7 +59,7 @@ comments: false
 
 {{< youtube TktyDcxcbyk >}}
 
-### Pull Request Etiquette 
+### Pull Request Etiquette
 
 {{< youtube cgNEg9rqV0U >}}
 
@@ -71,7 +79,7 @@ comments: false
 
 ## Jenkins User Conference 2017
 
-### Immutable infrastructure using Jenkins 
+### Immutable infrastructure using Jenkins
 
 {{< youtube RipZKmmlwM >}}
 
@@ -85,7 +93,7 @@ comments: false
 
 {{< youtube 8IB9J0GP-c  >}}
 
-### Discover How Surprisingly Similar it is to do Kung Fu and Devops 
+### Discover How Surprisingly Similar it is to do Kung Fu and Devops
 
 {{< speakerdeck f7a944707ce24744b516b19e6b011392 >}}
 
