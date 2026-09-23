@@ -3,6 +3,7 @@ name: CI FTW
 on:
   push:
     branches: [ master, preview ]
+    paths-ignore: [ 'terraform/**', '.github/workflows/verify-certs.yml' ]
 
 jobs:
   build:

@@ -5,6 +5,6 @@ if [[ -d ${SCRIPT_BASE}/public && "${COMMIT_MESSAGE}" == *"clean"* ]]; then
 fi
 DRAFTS=""
 if [[ "${GITHUB_REF_NAME}" != "master" ]]; then
-    DRAFTS="-D -F -b http://blogpreview.erikzaadi.com/"
+    DRAFTS="-D -F -b https://blogpreview.erikzaadi.com/"
 fi
 ${SCRIPT_BASE}/bin/hugo ${DRAFTS} --noTimes

@@ -4,7 +4,7 @@ MESSAGE="Deploy of blog succeeded"
 
 
 if [[ "${GITHUB_REF_NAME}" != "master" ]]; then
-    BLOG_URL="http://blogpreview.erikzaadi.com"
+    BLOG_URL="https://blogpreview.erikzaadi.com"
     MESSAGE="Deploy of preview blog succeeded: '${GITHUB_REF_NAME}'"
 else
     aws cloudfront create-invalidation --distribution-id ${AWS_CLOUDFRONT_DISTRIBUTION_ID} --paths "/*" > invalidation.json

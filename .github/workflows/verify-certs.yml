@@ -1,0 +1,36 @@
+# Certificate check workflow.
+# ACM renews the certificates automatically (~60 days before expiry), this only
+# alerts if that silently stopped working, e.g. the DNS validation record was removed.
+# No AWS credentials needed, it only connects with openssl.
+
+name: Verify Certificates
+
+on:
+  schedule:
+    - cron: '0 6 1 * *'
+  workflow_dispatch:
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      # Monthly runs: 50 days leaves 20+ days to fix a failed renewal before expiry
+      - name: Verify certificates
+        run: ./terraform/verify-certs.sh
+        env:
+          MIN_DAYS: 50
+
+      - name: Notify on failure
+        if: failure()
+        run: |
+          curl -s \
+            --form-string "token=${PUSHOVER_TOKEN}" \
+            --form-string "user=${PUSHOVER_USER}" \
+            --form-string "message=Certificate check failed for erikzaadi.com / slides / blogpreview" \
+            --form-string "url=${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}" \
+            https://api.pushover.net/1/messages.json
+        env:
+          PUSHOVER_TOKEN: ${{ secrets.PUSHOVER_TOKEN }}
+          PUSHOVER_USER: ${{ secrets.PUSHOVER_USER }}
