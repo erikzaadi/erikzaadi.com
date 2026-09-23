@@ -1,6 +1,6 @@
 ---
 locale: "en-us"
-baseurl: "//erikzaadi.com/"
+baseurl: "https://erikzaadi.com/"
 title: "Erik Zaadi"
 Title: "Erik Zaadi"
 author: "Erik Zaadi"
@@ -88,3 +88,18 @@ markup:
   goldmark:
     renderer:
       unsafe: true
+
+# hugo deploy (see deploy.sh)
+# s-maxage: CloudFront caches until the invalidation on deploy
+# max-age: short browser cache, HTML always revalidates so new posts show up
+deployment:
+  targets:
+    - name: production
+      url: "s3://erikzaadi.com?region=us-east-1"
+    - name: preview
+      url: "s3://blogpreview.erikzaadi.com?region=us-east-1"
+  matchers:
+    - pattern: "^.+\\.(html|xml|json|txt)$"
+      cacheControl: "public, max-age=0, s-maxage=31536000, must-revalidate"
+    - pattern: "^.+$"
+      cacheControl: "public, max-age=3600, s-maxage=31536000"

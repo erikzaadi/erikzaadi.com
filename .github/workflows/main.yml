@@ -2,12 +2,15 @@ name: CI FTW
 
 on:
   push:
-    branches: [ master, preview ]
+    branches: [ '**' ] # master deploys production, any other branch deploys the preview
     paths-ignore: [ 'terraform/**', '.github/workflows/verify-certs.yml' ]
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      id-token: write # OIDC token for the AWS deploy role
+      contents: read
     steps:
       - uses: actions/checkout@v6
         with:
@@ -16,8 +19,7 @@ jobs:
       - name: Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@v6
         with:
-          aws-access-key-id: ${{ secrets.AWS_ACCESS_ID }}
-          aws-secret-access-key: ${{ secrets.AWS_SECRET_ID }}
+          role-to-assume: ${{ secrets.AWS_ROLE_ARN }}
           aws-region: us-east-1
 
       - name: Cache bin
@@ -36,12 +38,11 @@ jobs:
         env:
           COMMIT_MESSAGE: ${{ github.event.head_commit.message }}
 
-      # - ducks up mime type?
-      # - name: Minify
-      #   run: ./minify.sh
-
       - name: Deploy
         run: ./deploy.sh
+        env:
+          COMMIT_MESSAGE: ${{ github.event.head_commit.message }}
+          AWS_CLOUDFRONT_DISTRIBUTION_ID: ${{ secrets.AWS_CLOUDFRONT_DISTRIBUTION_ID }}
 
   notify_success:
     needs: build
@@ -49,16 +50,8 @@ jobs:
     steps:
       - uses: actions/checkout@v6
 
-      - name: Configure AWS Credentials
-        uses: aws-actions/configure-aws-credentials@v6
-        with:
-          aws-access-key-id: ${{ secrets.AWS_ACCESS_ID }}
-          aws-secret-access-key: ${{ secrets.AWS_SECRET_ID }}
-          aws-region: us-east-1
-
       - name: notify
         env:
           PUSHOVER_TOKEN: ${{ secrets.PUSHOVER_TOKEN }}
           PUSHOVER_USER: ${{ secrets.PUSHOVER_USER }}
-          AWS_CLOUDFRONT_DISTRIBUTION_ID: ${{ secrets.AWS_CLOUDFRONT_DISTRIBUTION_ID }}
         run: ./notify.sh

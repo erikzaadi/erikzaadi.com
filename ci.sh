@@ -7,4 +7,4 @@ DRAFTS=""
 if [[ "${GITHUB_REF_NAME}" != "master" ]]; then
     DRAFTS="-D -F -b https://blogpreview.erikzaadi.com/"
 fi
-${SCRIPT_BASE}/bin/hugo ${DRAFTS} --noTimes
+${SCRIPT_BASE}/bin/hugo ${DRAFTS} --noTimes --minify

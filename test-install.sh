@@ -17,13 +17,8 @@ docker run --rm \
         COMMIT_MESSAGE=clean ./install.sh &&
         echo '--- Versions ---' &&
         ./bin/hugo version &&
-        ./bin/minify --version &&
-        ./bin/jq --version &&
         echo '--- Compiling ---' &&
         GITHUB_REF_NAME=preview COMMIT_MESSAGE='' ./ci.sh &&
-        echo '--- Minifying (no gzip for local serving) ---' &&
-        find ./public -name '*.css' -exec ./bin/minify --html-keep-document-tags -a {} -o {} \; &&
-        find ./public -name '*.html' -exec ./bin/minify --html-keep-document-tags -a {} -o {} \; &&
         echo '--- Serving on port ${PORT} ---' &&
         python3 -m http.server ${PORT} --directory ./public
     "

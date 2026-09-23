@@ -34,7 +34,7 @@ Custom shortcodes available in `layouts/shortcodes/`:
 Run `./open_drafts.sh` to open all posts with `draft: true` in `$EDITOR` (split windows).
 
 ## Preview deployment
-Push to the `preview` branch to deploy a draft-inclusive build to `blogpreview.erikzaadi.com`. The `master` branch deploys to `erikzaadi.com` (no drafts).
+Push any non-`master` branch to deploy a draft-inclusive build to `blogpreview.erikzaadi.com` (last push wins). The `master` branch deploys to `erikzaadi.com` (no drafts).
 
 ## Writing style
 - No em dashes (—) or en dashes (–). Use commas, colons, or short sentences instead.
