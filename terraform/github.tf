@@ -45,12 +45,12 @@ data "aws_iam_policy_document" "github_deploy" {
   # hugo deploy: list, compare, upload, delete
   statement {
     actions   = ["s3:ListBucket"]
-    resources = [for b in values(local.site_buckets) : "arn:aws:s3:::${b}"]
+    resources = [for b in values(local.deploy_buckets) : "arn:aws:s3:::${b}"]
   }
 
   statement {
     actions   = ["s3:GetObject", "s3:PutObject", "s3:DeleteObject"]
-    resources = [for b in values(local.site_buckets) : "arn:aws:s3:::${b}/*"]
+    resources = [for b in values(local.deploy_buckets) : "arn:aws:s3:::${b}/*"]
   }
 
   # Production deploy invalidates the main distribution

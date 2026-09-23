@@ -88,6 +88,32 @@ import {
 EOF
 done
 
+# Account-unique names, terraform can't just recreate these
+# (bucket policies / public access blocks / ownership controls are PUTs, no import needed)
+echo "[imports] Shared resources"
+
+OAC_ID=$(aws cloudfront list-origin-access-controls --no-cli-pager --output json \
+  | jq -r '.OriginAccessControlList.Items[]? | select(.Name == "erikzaadi-com-sites") | .Id')
+FUNCTION_EXISTS=$(aws cloudfront describe-function --name erikzaadi-com-index-rewrite \
+  --no-cli-pager --output text --query 'FunctionSummary.Name' 2>/dev/null || true)
+OIDC_ARN=$(aws iam list-open-id-connect-providers --no-cli-pager --output json \
+  | jq -r '.OpenIDConnectProviderList[].Arn | select(endswith("/token.actions.githubusercontent.com"))')
+ROLE_EXISTS=$(aws iam get-role --role-name erikzaadi-com-github-deploy \
+  --no-cli-pager --output text --query 'Role.RoleName' 2>/dev/null || true)
+
+add_import() {
+  echo "  $1 <- $2"
+  printf 'import {\n  to = %s\n  id = "%s"\n}\n\n' "$1" "$2" >> "$OUT"
+}
+
+[[ -n "$OAC_ID" ]] && add_import aws_cloudfront_origin_access_control.site "$OAC_ID"
+[[ -n "$FUNCTION_EXISTS" ]] && add_import aws_cloudfront_function.index_rewrite erikzaadi-com-index-rewrite
+[[ -n "$OIDC_ARN" ]] && add_import aws_iam_openid_connect_provider.github "$OIDC_ARN"
+if [[ -n "$ROLE_EXISTS" ]]; then
+  add_import aws_iam_role.github_deploy erikzaadi-com-github-deploy
+  add_import aws_iam_role_policy.github_deploy erikzaadi-com-github-deploy:deploy
+fi
+
 echo ""
 echo "[imports] Wrote ${OUT}"
 echo "[imports] Next: terraform plan, terraform apply, then rm imports.tf"

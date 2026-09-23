@@ -1,9 +1,8 @@
-# blogpreview.erikzaadi.com - draft-inclusive build from the preview branch.
-# Created here (not imported), fronts the existing public S3 website bucket.
+# blogpreview.erikzaadi.com - draft-inclusive build from any non-master branch.
+# Created here (not imported), fronts the existing private S3 bucket via OAC.
 
 locals {
-  preview_domain        = "blogpreview.erikzaadi.com"
-  preview_origin_domain = "blogpreview.erikzaadi.com.s3-website-us-east-1.amazonaws.com"
+  preview_domain = "blogpreview.erikzaadi.com"
 }
 
 # No caching, so preview deploys show up immediately without an invalidation
@@ -18,25 +17,38 @@ resource "aws_cloudfront_distribution" "preview" {
   is_ipv6_enabled = true
   price_class     = "PriceClass_100"
 
-  # S3 website endpoint (not the REST endpoint) so /path/ resolves to /path/index.html
   origin {
-    domain_name = local.preview_origin_domain
-    origin_id   = "S3-Website-${local.preview_origin_domain}"
-
-    custom_origin_config {
-      http_port              = 80
-      https_port             = 443
-      origin_protocol_policy = "http-only"
-      origin_ssl_protocols   = ["TLSv1.2"]
-    }
+    domain_name              = data.aws_s3_bucket.site["preview"].bucket_regional_domain_name
+    origin_id                = "s3-${local.preview_domain}"
+    origin_access_control_id = aws_cloudfront_origin_access_control.site.id
   }
 
   default_cache_behavior {
-    target_origin_id       = "S3-Website-${local.preview_origin_domain}"
+    target_origin_id       = "s3-${local.preview_domain}"
     viewer_protocol_policy = "redirect-to-https"
     allowed_methods        = ["GET", "HEAD"]
     cached_methods         = ["GET", "HEAD"]
     cache_policy_id        = data.aws_cloudfront_cache_policy.caching_disabled.id
+
+    function_association {
+      event_type   = "viewer-request"
+      function_arn = aws_cloudfront_function.index_rewrite.arn
+    }
+  }
+
+  # Private bucket: a missing object is a 403 (no ListBucket), treat both as not found
+  custom_error_response {
+    error_code            = 403
+    response_code         = 404
+    response_page_path    = "/404.html"
+    error_caching_min_ttl = 0
+  }
+
+  custom_error_response {
+    error_code            = 404
+    response_code         = 404
+    response_page_path    = "/404.html"
+    error_caching_min_ttl = 0
   }
 
   restrictions {
