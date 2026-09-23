@@ -5,7 +5,7 @@ status: publish
 title: Getting Started with Test Driven Development
 comments: true
 categories:
-- TDD
+- tdd
 ---
 
 I've been to wanting to learn and use Test Driven Development for quite some time now.  

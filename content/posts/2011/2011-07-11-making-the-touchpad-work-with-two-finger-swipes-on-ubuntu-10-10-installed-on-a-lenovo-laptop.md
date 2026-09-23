@@ -7,8 +7,8 @@ title: Making the touchpad work with two finger swipes on ubuntu 10.10 installed
 wordpress_id: '319'
 comments: true
 categories:
-- Install
-- IT
+- install
+- it
 tags:
 - lenovo
 - synaptics

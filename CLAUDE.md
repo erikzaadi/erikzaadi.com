@@ -24,6 +24,8 @@ image: "/path"    # OG/thumbnail image
 ---
 ```
 
+Tags and categories are always lowercase in front matter. For a proper display title (e.g. "AI", "jQuery"), add `content/tags/<term>/_index.md` (or `content/categories/...`) with just a `title`. Mixed casing across posts makes builds nondeterministic.
+
 ## Shortcodes
 Custom shortcodes available in `layouts/shortcodes/`:
 - `{{< paddedimage "/path" "Alt Text" >}}` — image with rounded corners and shadow (optional 3rd arg: width, default 80%)

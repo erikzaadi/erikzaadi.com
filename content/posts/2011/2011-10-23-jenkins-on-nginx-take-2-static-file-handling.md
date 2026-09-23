@@ -6,8 +6,8 @@ title: Jenkins on Nginx – Take 2 - Static file handling
 wordpress_id: '362'
 comments: true
 categories:
-- IT
-- Jenkins
+- it
+- jenkins
 tags:
 - jenkins
 - nginx

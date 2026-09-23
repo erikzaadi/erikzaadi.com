@@ -6,7 +6,7 @@ title: New Blog Layout
 wordpress_id: '49'
 comments: true
 categories:
-- General
+- general
 ---
 
 #### Finally got my custom template up and running..

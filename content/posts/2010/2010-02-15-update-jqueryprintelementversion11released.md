@@ -6,8 +6,8 @@ title: Update - jQuery Print Element version 1.1 Released
 wordpress_id: '25'
 comments: true
 categories:
-- jQuery
-- JQueryPlugins
+- jquery
+- jqueryplugins
 ---
 
 ### Changelog:

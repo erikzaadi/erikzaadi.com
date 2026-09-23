@@ -6,7 +6,7 @@ title: Automating Egged Bus Wifi Connection
 wordpress_id: '323'
 comments: true
 categories:
-- IT
+- it
 tags:
 - egged
 - hacking

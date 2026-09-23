@@ -2,7 +2,7 @@
 date: 2017-06-19T14:12:14+03:00
 description: "TMUX MÖDIFIER FTL, or simply detecting current input language from terminal"
 title: "TMUX for multilangual cli addicts"
-categories: [TMUX, cli, Swedish, Mac]
+categories: [tmux, cli, swedish, mac]
 ---
 
 ## As you might know, TMUX is awesome.

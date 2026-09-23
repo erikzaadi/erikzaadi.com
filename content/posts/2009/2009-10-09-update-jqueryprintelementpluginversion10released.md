@@ -6,9 +6,9 @@ title: Update - jQuery Print Element Plugin version 1.0 Released
 wordpress_id: '37'
 comments: true
 categories:
-- Github
-- jQuery
-- JQueryPlugins
+- github
+- jquery
+- jqueryplugins
 ---
 
 Thanks to [John](http://erikzaadi.blogspot.com/2009/07/jquery-print-element-plugin.html?showComment=1250467729294#c5342334733867241109) and [David](http://github.com/ungenio) for their contribution and valuable input. 

@@ -6,8 +6,8 @@ title: Host Automatic updatable Air applications on Github
 wordpress_id: '22'
 comments: true
 categories:
-- Air
-- Github
+- air
+- github
 ---
 
 For the impatient, check out the [demo](http://github.com/downloads/erikzaadi/AirOnGithub/AirOnGithub-v1.0.air) | [source](http://github.com/erikzaadi/AirOnGithub)..

@@ -6,8 +6,8 @@ title: Startup Weekend, Android, Vim, Razor and a bit of Chirpy
 wordpress_id: '14'
 comments: true
 categories:
-- General
-- Personal
+- general
+- personal
 ---
 
 Whoa, it's been a while since I've written.

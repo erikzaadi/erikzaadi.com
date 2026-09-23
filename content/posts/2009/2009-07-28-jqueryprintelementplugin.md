@@ -6,8 +6,8 @@ title: jQuery Print Element Plugin
 wordpress_id: '44'
 comments: true
 categories:
-- jQuery
-- JQueryPlugins
+- jquery
+- jqueryplugins
 ---
 
 ##### 

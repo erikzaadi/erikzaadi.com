@@ -1,7 +1,7 @@
 ---
 title: "Auto Resume Claude Code Sessions"
 date: 2026-02-15T13:34:18+02:00
-tags: ["AI", "Claude", "Productivity", "Automation"]
+tags: ["ai", "claude", "productivity", "automation"]
 ---
 
 I'm a big user of Claude Code, their CLI is AMAZONG, you can even paste images of outputs and it'll parse it.

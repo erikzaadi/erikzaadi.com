@@ -6,8 +6,8 @@ title: Creating a theme for AtomSite, a quick walkthrough
 wordpress_id: '17'
 comments: true
 categories:
-- AtomSite
-- Blog
+- atomsite
+- blog
 ---
 
 **Prelude** : Reading through[_http://atomsite.net/info/Themes.xhtml_](http://atomsite.net/info/Themes.xhtml) might help if anything here is not understood.

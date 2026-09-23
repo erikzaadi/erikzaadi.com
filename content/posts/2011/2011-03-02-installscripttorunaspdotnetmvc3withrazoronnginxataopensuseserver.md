@@ -7,7 +7,7 @@ wordpress_id: '7'
 comments: true
 categories:
 - aspnetmvc
-- CSharp
+- csharp
 - mono
 ---
 

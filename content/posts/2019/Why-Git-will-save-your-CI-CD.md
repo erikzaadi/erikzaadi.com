@@ -3,7 +3,7 @@ title: "Life is short, make your CI blazing fast"
 date: 2019-09-29T11:12:38+03:00
 draft: false
 description: "The short and simple tale of how a commit SHA-1 can save you time and trouble"
-tags: ["CI", "CD", "continuous integration", "continuous deployment", "git"]
+tags: ["ci", "cd", "continuous integration", "continuous deployment", "git"]
 ---
 
 # Rebase your CI

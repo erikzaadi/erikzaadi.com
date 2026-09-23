@@ -2,7 +2,7 @@
 title: "Linting Helm Charts in Travis"
 date: 2019-02-25T21:11:16+02:00
 description: "Because even helm deserves some CI love..."
-categories: ['CI', 'Continuous Integration', 'Travis CI', 'kubernetes', 'helm-charts', 'YAML']
+categories: ['ci', 'continuous integration', 'travis ci', 'kubernetes', 'helm-charts', 'yaml']
 ---
 
 ## Helm charts makes even kubernetes sane, However...

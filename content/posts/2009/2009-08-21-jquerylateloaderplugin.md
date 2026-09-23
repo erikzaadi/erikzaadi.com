@@ -6,8 +6,8 @@ title: jQuery Late Loader Plugin
 wordpress_id: '41'
 comments: true
 categories:
-- jQuery
-- JQueryPlugins
+- jquery
+- jqueryplugins
 ---
 
 #### **Prelude**

@@ -6,7 +6,7 @@ title: Customer Satisfaction
 wordpress_id: '10'
 comments: true
 categories:
-- Personal
+- personal
 ---
 
 Yesterday I delivered a small site to a customer.

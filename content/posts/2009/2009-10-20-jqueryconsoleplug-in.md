@@ -6,8 +6,8 @@ title: jQuery Console Plug-in
 wordpress_id: '36'
 comments: true
 categories:
-- jQuery
-- JQueryPlugins
+- jquery
+- jqueryplugins
 ---
 
 #### **Prelude**

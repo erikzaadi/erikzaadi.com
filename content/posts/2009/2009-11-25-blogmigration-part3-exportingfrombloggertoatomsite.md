@@ -6,9 +6,9 @@ title: Blog Migration - Part 3 - Exporting Posts From Blogger To Atomsite
 wordpress_id: '32'
 comments: true
 categories:
-- AtomSite
-- Blog
-- BlogMigration
+- atomsite
+- blog
+- blogmigration
 ---
 
 Previous Parts : [1](http://erikzaadi.com/blog/2009/11/17/BlogMigrationPart1SettingUp.xhtml), [2](http://erikzaadi.com/blog/2009/11/17/BlogMigration-Part2-TemporaryPages.xhtml)

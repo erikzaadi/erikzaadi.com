@@ -7,9 +7,9 @@ title: Blog Migration – Part – 4 – Connecting Windows Live Writer to the A
 wordpress_id: '31'
 comments: true
 categories:
-- AtomSite
-- Blog
-- BlogMigration
+- atomsite
+- blog
+- blogmigration
 ---
 
 Previous Posts : [1](http://erikzaadi.com/blog/2009/11/17/BlogMigrationPart1SettingUp.xhtml) | [2](http://erikzaadi.com/blog/2009/11/17/BlogMigration-Part2-TemporaryPages.xhtml) | [3](http://erikzaadi.com/blog/2009/11/25/BlogMigration-Part3-ExportingFromBloggerToAtomsite.xhtml)

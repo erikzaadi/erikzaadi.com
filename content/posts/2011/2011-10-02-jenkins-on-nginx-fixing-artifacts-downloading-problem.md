@@ -6,7 +6,7 @@ title: Jenkins on Nginx - Fixing artifacts downloading problem
 wordpress_id: '357'
 comments: true
 categories:
-- Jenkins
+- jenkins
 tags:
 - ci
 - jenkins

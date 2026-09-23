@@ -2,7 +2,7 @@
 title: "From Clippy to Slippy: The Perils and Perks of AI in Management"
 date: 2025-08-17T07:51:24+03:00
 slug: 'clippy-to-slippy'
-tags: ["AI", "Management", "Leadership", "Productivity", "Humor"]
+tags: ["ai", "management", "leadership", "productivity", "humor"]
 description: 'If you were around in the early 2000s, you probably remember Clippy, the overly eager paperclip who popped up in Word to offer ‘helpful’ tips like how to write a letter (spoiler: nobody asked). Fast forward to today, and Clippy’s spiritual descendants are everywhere, only now they’re called AI assistants. As a manager, I’ve found that leaning on AI can feel like going from Clippy to Slippy: sometimes it smooths the path and saves me hours, and other times it slips me into awkward mistakes, tone-deaf messages, or content that reads like it was written by… well, a paperclip. This post is my testimony of both the perks and perils of letting AI sneak into management work.'
 ---
 

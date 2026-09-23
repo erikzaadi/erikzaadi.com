@@ -6,8 +6,8 @@ title: The beauty of the desert
 wordpress_id: '29'
 comments: true
 categories:
-- Nature
-- Personal
+- nature
+- personal
 ---
 
 A bit off topic perhaps, but I have to admit, I love the

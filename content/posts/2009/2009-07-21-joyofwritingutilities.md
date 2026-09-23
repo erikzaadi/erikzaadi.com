@@ -6,9 +6,9 @@ title: Joy of writing utilities
 wordpress_id: '46'
 comments: true
 categories:
-- General
-- Personal
-- Utilities
+- general
+- personal
+- utilities
 ---
 
 Every now and then I get to a point where I need to do some repetitious and most likely boring task.      

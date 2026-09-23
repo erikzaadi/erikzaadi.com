@@ -6,7 +6,7 @@ title: Working with Github from within a company firewall
 wordpress_id: '27'
 comments: true
 categories:
-- Github
+- github
 ---
 
 

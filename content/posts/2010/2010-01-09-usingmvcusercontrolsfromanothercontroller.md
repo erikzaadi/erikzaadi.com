@@ -6,9 +6,9 @@ title: Using Mvc user controls from another controller
 wordpress_id: '28'
 comments: true
 categories:
-- AspdotNETMvc
+- aspdotnetmvc
 - aspnetmvc
-- CSharp
+- csharp
 ---
 
 I needed to use a user control from a different controllers folder in a view.

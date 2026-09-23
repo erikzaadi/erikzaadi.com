@@ -6,9 +6,9 @@ title: jQAPI Air Application
 wordpress_id: '23'
 comments: true
 categories:
-- Github
-- jQAPI
-- jQuery
+- github
+- jqapi
+- jquery
 ---
 
 For the last year and a half I've been heavily exposed to a lot of open source software.  

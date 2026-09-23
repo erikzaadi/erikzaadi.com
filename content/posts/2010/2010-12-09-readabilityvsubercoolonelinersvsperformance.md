@@ -6,7 +6,7 @@ title: Readability VS Uber Cool One Liners VS Performance
 wordpress_id: '11'
 comments: true
 categories:
-- CSharp
+- csharp
 ---
 
 #### Given that you need to do a MD5 hash in C#, which approach would you take?

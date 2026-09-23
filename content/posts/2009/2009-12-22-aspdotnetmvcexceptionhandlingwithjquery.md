@@ -6,9 +6,9 @@ title: Asp.Net MVC Exception Handling with jQuery
 wordpress_id: '30'
 comments: true
 categories:
-- AspdotNETMvc
+- aspdotnetmvc
 - aspnetmvc
-- jQuery
+- jquery
 ---
 
 I stumbled upon this

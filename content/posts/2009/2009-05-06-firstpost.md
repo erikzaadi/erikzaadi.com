@@ -6,7 +6,7 @@ title: First post
 comments: true
 wordpress_id: '51'
 categories:
-- General
+- general
 ---
 
 Ok, here goes the first post..  

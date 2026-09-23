@@ -6,11 +6,11 @@ title: ASP.NET MVC 2 Preview 1
 wordpress_id: '43'
 comments: true
 categories:
-- AspdotNETMvc
-- AspdotNETMvc2
+- aspdotnetmvc
+- aspdotnetmvc2
 - aspnetmvc
 - aspnetmvc2
-- CSharp
+- csharp
 ---
 
 [Phil Haack](http://haacked.com/) totally surprised with the announcement of the [first preview release of ASP.NET MVC 2.](http://haacked.com/archive/2009/07/30/asp.net-mvc-released.aspx)

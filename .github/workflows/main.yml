@@ -5,9 +5,16 @@ on:
     branches: [ '**' ] # master deploys production, any other branch deploys the preview
     paths-ignore: [ 'terraform/**', '.github/workflows/verify-certs.yml' ]
 
+# One deploy per target at a time: all non-master branches share the preview bucket.
+# Queued, not cancelled, so a deploy never stops halfway (only the latest pending run is kept).
+concurrency:
+  group: deploy-${{ github.ref_name == 'master' && 'production' || 'preview' }}
+  cancel-in-progress: false
+
 jobs:
   build:
-    runs-on: ubuntu-latest
+    # Pinned to match the ubuntu image in test-install.sh, bump both together
+    runs-on: ubuntu-24.04
     permissions:
       id-token: write # OIDC token for the AWS deploy role
       contents: read

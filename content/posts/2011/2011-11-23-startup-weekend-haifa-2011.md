@@ -6,7 +6,7 @@ title: Startup weekend Haifa (2011)
 wordpress_id: '366'
 comments: true
 categories:
-- Personal
+- personal
 tags:
 - startupweekend
 ---

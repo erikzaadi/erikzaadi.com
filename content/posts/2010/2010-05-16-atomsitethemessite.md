@@ -6,8 +6,8 @@ title: AtomSite Themes site
 wordpress_id: '19'
 comments: true
 categories:
-- AtomSite
-- Blog
+- atomsite
+- blog
 ---
 
 I've put together a small site that allows you to preview the custom [AtomSite](http://atomsite.net) themes I've done.

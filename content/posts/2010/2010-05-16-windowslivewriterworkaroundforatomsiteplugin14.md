@@ -6,8 +6,8 @@ title: Windows Live Writer Workaround For AtomSite Plugin 1.4
 wordpress_id: '20'
 comments: true
 categories:
-- AtomSite
-- Blog
+- atomsite
+- blog
 ---
 
 [This post is a follow up to [the workaround for AtomSite 1.3](http://erikzaadi.com/blog/2010/04/16/WindowsLiveWriterWorkaroundForAtomSite13.xhtml)]

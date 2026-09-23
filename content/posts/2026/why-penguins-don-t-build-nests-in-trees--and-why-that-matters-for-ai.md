@@ -2,7 +2,7 @@
 title: "Why Penguins Don't Build Nests in Trees and Why That Matters for AI "
 date: 2026-02-08T12:49:56+02:00
 slug: 'penguins-kids-and-ai-sitting-in-a-tree'
-tags: ["AI", "Leadership", "Education", "Prompting"]
+tags: ["ai", "leadership", "education", "prompting"]
 ---
 
 

@@ -6,7 +6,7 @@ title: You know you are a geek when you have a site for your wedding, and even m
 wordpress_id: '8'
 comments: true
 categories:
-- Personal
+- personal
 ---
 
 Whoa that was a long title.

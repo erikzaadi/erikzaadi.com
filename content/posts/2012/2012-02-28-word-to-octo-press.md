@@ -3,7 +3,7 @@ title: "mv {word,octo}press"
 date: 2012-02-28
 status: publish
 comments: true
-categories: [Personal, Blog, BlogMigration]
+categories: [personal, blog, blogmigration]
 ---
 
 After my wordpress blog was hacked twice, and I got a warning from google that I host malware (!), I decided that enough is enough, time to ditch Wordpress and hope never to see php code again.

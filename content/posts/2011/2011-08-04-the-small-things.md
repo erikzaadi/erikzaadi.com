@@ -6,9 +6,9 @@ title: The small things
 wordpress_id: '331'
 comments: true
 categories:
-- General
-- IT
-- Personal
+- general
+- it
+- personal
 tags:
 - hacking
 - nix

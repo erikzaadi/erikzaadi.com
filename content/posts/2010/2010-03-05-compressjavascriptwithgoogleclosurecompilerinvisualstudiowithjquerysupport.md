@@ -6,10 +6,10 @@ title: Compress Javascript with Google Closure Compiler in Visual Studio (with j
 comments: true
 wordpress_id: '24'
 categories:
-- GoogleClosureCompiler
-- jQuery
-- JQueryPlugins
-- VisualStudio
+- googleclosurecompiler
+- jquery
+- jqueryplugins
+- visualstudio
 ---
 
 [Google Closure Compiler](http://code.google.com/closure/compiler/docs/overview.html) is an amazing tool.

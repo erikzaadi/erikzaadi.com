@@ -7,8 +7,8 @@ wordpress_id: '26'
 comments: true
 categories:
 - aspnetmvc2
-- jQuery
-- VisualStudio
+- jquery
+- visualstudio
 ---
 
  

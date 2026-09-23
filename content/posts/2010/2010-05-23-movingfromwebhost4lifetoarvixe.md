@@ -7,8 +7,8 @@ wordpress_id: '18'
 comments: true
 categories:
 - arvixe
-- Blog
-- BlogMigration
+- blog
+- blogmigration
 - webhost4life
 ---
 

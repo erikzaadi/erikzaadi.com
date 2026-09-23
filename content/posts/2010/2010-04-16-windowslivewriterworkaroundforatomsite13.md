@@ -6,10 +6,10 @@ title: Windows Live Writer Workaround for AtomSite 1.3
 wordpress_id: '21'
 comments: true
 categories:
-- AspdotNETMvc
+- aspdotnetmvc
 - aspnetmvc
-- AtomSite
-- Blog
+- atomsite
+- blog
 ---
 
 [**UPDATE** - _Available for version 1.4 as well, see post_ [here](http://erikzaadi.com/blog/2010/05/16/WindowsLiveWriterWorkaroundForAtomSitePlugin14.xhtml)]

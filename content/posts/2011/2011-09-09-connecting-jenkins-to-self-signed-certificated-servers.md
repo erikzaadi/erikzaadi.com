@@ -6,8 +6,8 @@ title: Connecting Jenkins to self signed certificated servers
 wordpress_id: '351'
 comments: true
 categories:
-- Java
-- Jenkins
+- java
+- jenkins
 tags:
 - java
 - jenkins

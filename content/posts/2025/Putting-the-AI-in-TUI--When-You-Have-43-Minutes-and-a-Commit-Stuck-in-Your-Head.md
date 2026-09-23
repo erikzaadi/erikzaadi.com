@@ -4,7 +4,7 @@ date: 2025-11-07T11:26:53+02:00
 description: >
   How a busy engineering manager finds real coding flow in 43-minute windows, powered by Vim, tmux, Devbox, and a terminal-native AI assistant.
   Cold brew optional, terminal required.
-tags: ["AI", "developer-experience", "terminal", "vim", "tmux", "devbox", "cursor", "productivity", "engineering-management", "flow-state"]
+tags: ["ai", "developer-experience", "terminal", "vim", "tmux", "devbox", "cursor", "productivity", "engineering-management", "flow-state"]
 image: "/images/brew-ai-tui.png"
 toc: true
 aliases: ["/ai-in-tui"]

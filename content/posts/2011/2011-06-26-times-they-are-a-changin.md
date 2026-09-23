@@ -6,7 +6,7 @@ title: Times they are a changin
 wordpress_id: '299'
 comments: true
 categories:
-- Personal
+- personal
 ---
 
 ![](/images/XMPie-Nov_4_07-Trip-129.jpg)

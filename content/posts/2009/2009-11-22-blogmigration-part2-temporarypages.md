@@ -6,9 +6,9 @@ title: Blog Migration - Part 2 - Temporary Pages
 wordpress_id: '33'
 comments: true
 categories:
-- AtomSite
-- Blog
-- BlogMigration
+- atomsite
+- blog
+- blogmigration
 ---
 Previously : [Part 1 - Setting up](http://erikzaadi.com/blog/2009/11/17/BlogMigrationPart1SettingUp.xhtml)
 				

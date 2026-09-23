@@ -6,9 +6,9 @@ title: Blog Migration - Part 1 - Setting Up Domain and Hosting Server
 wordpress_id: '34'
 comments: true
 categories:
-- AtomSite
-- Blog
-- BlogMigration
+- atomsite
+- blog
+- blogmigration
 ---
 
 [Part 2](http://erikzaadi.com/blog/2009/11/17/BlogMigration-Part2-TemporaryPages.xhtml)

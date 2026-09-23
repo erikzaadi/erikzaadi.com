@@ -6,10 +6,10 @@ title: Installing Windows 2008 R2 on an iMac (Boot Camp)
 wordpress_id: '38'
 comments: true
 categories:
-- Install
-- IT
-- Mac
-- Windows2008R2
+- install
+- it
+- mac
+- windows2008r2
 ---
 
 Skip the prelude and show me the steps!

@@ -6,8 +6,8 @@ title: Java Java for a .Niet dev
 wordpress_id: '15'
 comments: true
 categories:
-- CSharp
-- Java
+- csharp
+- java
 ---
 
 I've been hacking on a small Android application lately, which exposed me to Java.

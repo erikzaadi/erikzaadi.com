@@ -3,7 +3,7 @@
 date: 2017-02-08T08:13:13+02:00
 description: "Continuous deployment for a static blog engine"
 title: "The D in Blog"
-categories: [CI, CD, blog, S3]
+categories: [ci, cd, blog, s3]
 ---
 
 ## Humans make mistakes.

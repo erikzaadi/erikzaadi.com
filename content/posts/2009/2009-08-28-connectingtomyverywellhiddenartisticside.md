@@ -6,8 +6,8 @@ title: Connecting to my very well hidden artistic side
 wordpress_id: '40'
 comments: true
 categories:
-- General
-- Personal
+- general
+- personal
 ---
 
 As a part of the redesign I’m doing for my [github site](http://erikzaadi.github.com), I wanted to add a comic image of myself (inspired by [@addyosmani](http://twitter.com/addyosmani) and [@davidwalshblog](http://twitter.com/davidwalshblog)’s great avatars)

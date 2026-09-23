@@ -6,11 +6,11 @@ title: Github Project Pages
 wordpress_id: '42'
 comments: true
 categories:
-- General
-- Github
-- jQuery
-- JQueryPlugins
-- Personal
+- general
+- github
+- jquery
+- jqueryplugins
+- personal
 ---
 
 ## Prelude (skip)

@@ -6,7 +6,7 @@ title: Personal Web Nostalgy
 wordpress_id: '48'
 comments: true
 categories:
-- General
+- general
 ---
 
 My fiance happened to googlestubmle upon this site:

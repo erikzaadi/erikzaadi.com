@@ -6,8 +6,8 @@ title: Is it really worth it?
 wordpress_id: '47'
 comments: true
 categories:
-- General
-- Personal
+- general
+- personal
 ---
 
 Lately I've been having some serious set downs at my work, a

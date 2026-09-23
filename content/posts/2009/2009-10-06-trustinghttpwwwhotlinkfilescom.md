@@ -6,9 +6,9 @@ title: Trusting http://www.hotlinkfiles.com/
 wordpress_id: '39'
 comments: true
 categories:
-- Blog
-- General
-- Personal
+- blog
+- general
+- personal
 ---
 
 Just reconnected to the blog after a small vacation only to see that the entire layout looked awful.

@@ -73,8 +73,6 @@ menu:
       weight: 2
 
 # Syntax Highlighting
-pygmentsUseClasses: true
-pygmentsCodefences: true
 markup:
   highlight:
     codeFences: true

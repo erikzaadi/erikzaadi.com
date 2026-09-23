@@ -6,8 +6,8 @@ title: Convert Encoding Utility
 wordpress_id: '45'
 comments: true
 categories:
-- CSharp
-- Utilities
+- csharp
+- utilities
 ---
 
 ## Prelude (skip):

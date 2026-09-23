@@ -6,9 +6,9 @@ title: Dynamic Pitfalls
 wordpress_id: '12'
 comments: true
 categories:
-- AspdotNETMvc
+- aspdotnetmvc
 - aspnetmvc
-- CSharp
+- csharp
 ---
 
 I'm working on an asp.net mvc 3 powered site (for my wedding actually!), where I decided to try out some new technologies I've been wanting to play with for a while.
