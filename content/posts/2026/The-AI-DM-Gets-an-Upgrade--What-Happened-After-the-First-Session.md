@@ -9,7 +9,7 @@ image: /images/dnd-again/dnd-fam-again-openai.png
 
 *Car mode, terminal mode, agentic narration, and a development workflow that uses different AI tools for different jobs.*
 
-[Last time I wrote about this](/2026/04/08/my-kid-didn-t-want-to-dm-so-i-built-one/), I had just shipped the first version of [dnd-fam-ftw](https://github.com/erikzaadi/dnd-fam-ftw): a self-hosted AI Dungeon Master for family D&D nights. POC in an evening, first session was chaos, everyone had a good time.
+[Last time I wrote about this](/2026/04/08/my-kid-didnt-want-to-dm-so-i-built-one/), I had just shipped the first version of [dnd-fam-ftw](https://github.com/erikzaadi/dnd-fam-ftw): a self-hosted AI Dungeon Master for family D&D nights. POC in an evening, first session was chaos, everyone had a good time.
 
 Then we kept playing. And once you keep playing, you start noticing things.
 

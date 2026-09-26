@@ -71,6 +71,10 @@ menu:
       name: "Slides and Public Talks"
       url: "/slides"
       weight: 2
+    -
+      name: "Side Projects"
+      url: "/projects"
+      weight: 3
 
 # Syntax Highlighting
 markup:
