@@ -5,6 +5,16 @@ title: Slides and Public Talks
 comments: false
 ---
 
+## The Software Factory : AI Agents Community Meetup
+
+### Demystifying Software Factories
+
+Co presented with the chad [Daniel Sinai](https://sinai.blog/)
+
+{{< slides sw-factory-persentation >}}
+
+---
+
 ## DevOpsDays Lima 2026
 
 ### The Agentic SDLC Platform - Hold That Token Agent
