@@ -2,3 +2,4 @@ public
 bin
 .DS_Store
 .hugo_build.lock
+.env

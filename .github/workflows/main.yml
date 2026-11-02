@@ -51,6 +51,19 @@ jobs:
           COMMIT_MESSAGE: ${{ github.event.head_commit.message }}
           AWS_CLOUDFRONT_DISTRIBUTION_ID: ${{ secrets.AWS_CLOUDFRONT_DISTRIBUTION_ID }}
 
+      # Preview only (master is untouched): print PREVIEW_URL lines, step output and summary
+      - name: Preview URLs
+        id: preview
+        if: github.ref_name != 'master'
+        run: ./preview_urls.sh
+
+      - name: Check preview
+        if: github.ref_name != 'master'
+        env:
+          PREVIEW_URL: ${{ steps.preview.outputs.preview_url }}
+          PREVIEW_POST_URLS: ${{ steps.preview.outputs.preview_post_urls }}
+        run: ./check_preview.sh ${PREVIEW_URL} ${PREVIEW_POST_URLS}
+
   notify_success:
     needs: build
     runs-on: ubuntu-latest
