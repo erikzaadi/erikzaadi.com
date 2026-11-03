@@ -57,7 +57,7 @@ Co presented with the chad [Daniel Sinai](https://sinai.blog/)
 
 {{< youtube Ua6g_qmb2Us >}}
 
-{{< slides monitoring-people-kpi >}}
+{{< slides monitoring-people-kpi false >}}
 
 ---
 
@@ -67,7 +67,7 @@ Co presented with the chad [Daniel Sinai](https://sinai.blog/)
 
 {{< youtube N6nnkHtG7RU >}}
 
-{{< slides pr-ignitedevseccon2020 >}}
+{{< slides pr-ignitedevseccon2020 false >}}
 
 ---
 
@@ -81,7 +81,7 @@ Co presented with the chad [Daniel Sinai](https://sinai.blog/)
 
 {{< youtube cgNEg9rqV0U >}}
 
-{{< slides pr-ignite >}}
+{{< slides pr-ignite false >}}
 
 ---
 

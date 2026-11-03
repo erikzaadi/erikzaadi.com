@@ -1,2 +1,2 @@
-<h5><a target="_blank" href="https://slides.erikzaadi.com/{{ .Get 0 }}">Full slides</a></h5>
+<h5><a target="_blank" href="https://slides.erikzaadi.com/{{ .Get 0 }}">Full slides</a>{{ if ne (string (.Get 1)) "false" }} <small style="font-weight:normal;opacity:.6">· speaker notes: right click, <i>Enter Presenter Mode</i></small>{{ end }}</h5>
 <iframe marginheight="0" width="100%" height="500px" marginwidth="0" src="https://slides.erikzaadi.com/{{ .Get 0 }}" ></iframe>
