@@ -5,6 +5,14 @@ title: Slides and Public Talks
 comments: false
 ---
 
+## Agentic Trick or Treat: AI Horror Stories Meetup
+
+### It passed review
+
+{{< slides agentic-trick-or-treat-passed-review >}}
+
+---
+
 ## The Software Factory : AI Agents Community Meetup
 
 ### Demystifying Software Factories
